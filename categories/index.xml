@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>CARE</title>
       <link>https://lucianakeiko.github.io/categories/care/</link>
-      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/care/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Super Amigos</title>
+      <link>https://lucianakeiko.github.io/categories/super-amigos/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/super-amigos/</guid>
       <description></description>
     </item>
     
@@ -27,15 +36,6 @@
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/loading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Super Amigos</title>
-      <link>https://lucianakeiko.github.io/categories/super-amigos/</link>
-      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/categories/super-amigos/</guid>
       <description></description>
     </item>
     
