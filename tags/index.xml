@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Epicuro</title>
+      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seneca</title>
+      <link>https://lucianakeiko.github.io/tags/seneca/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Catão</title>
@@ -40,15 +58,6 @@
     </item>
     
     <item>
-      <title>Seneca</title>
-      <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sócrates</title>
       <link>https://lucianakeiko.github.io/tags/s%C3%B3crates/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
@@ -63,15 +72,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/teste/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epicuro</title>
-      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
       <description></description>
     </item>
     
