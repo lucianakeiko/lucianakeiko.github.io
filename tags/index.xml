@@ -7,26 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Seneca</title>
-      <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Epicuro</title>
+      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
+      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Epicuro</title>
-      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Meta</title>
+      <link>https://lucianakeiko.github.io/tags/meta/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
+      <guid>https://lucianakeiko.github.io/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seneca</title>
+      <link>https://lucianakeiko.github.io/tags/seneca/</link>
+      <pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
       <description></description>
     </item>
     
