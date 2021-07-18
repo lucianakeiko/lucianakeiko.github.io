@@ -62,11 +62,10 @@ for (acao in accoes) {
 chartSeries(AMAR3.SA, 
 						type        = "candlesticks",
             main        = "",
-            show.grid   = FALSE,
+            show.grid   = TRUE,
             name        = nomes[1],
 						theme=chartTheme('white',up.col='green',dn.col='red'),
-						TA="addBBands();addVo();addSMA(n=200,col = 'blue')",
-						subset = "2021-1::2021-7")
+						TA="addSMA(n=200,col = 'blue')")
 
 ```
 
