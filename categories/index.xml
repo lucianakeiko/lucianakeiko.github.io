@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Mon, 19 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>CORE SELF</title>
+      <link>https://lucianakeiko.github.io/categories/core-self/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/core-self/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Super Amigos</title>
       <link>https://lucianakeiko.github.io/categories/super-amigos/</link>
-      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/super-amigos/</guid>
       <description></description>
@@ -40,15 +49,6 @@
     </item>
     
     <item>
-      <title>CARE</title>
-      <link>https://lucianakeiko.github.io/categories/care/</link>
-      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/categories/care/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Loading</title>
       <link>https://lucianakeiko.github.io/categories/loading/</link>
       <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
@@ -63,6 +63,15 @@
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/quant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CARE</title>
+      <link>https://lucianakeiko.github.io/categories/care/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/care/</guid>
       <description></description>
     </item>
     
