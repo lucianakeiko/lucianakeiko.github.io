@@ -1,13 +1,11 @@
 ---
-title: Varejo de Moda
-author: Keik@
+title: "Varejo de Moda"
+author: "Keik@"
 date: '2021-07-17'
-slug: []
 categories:
-  - Macro
-  - Setorial
-tags: []
-description: ''
+- Macro
+- Setorial
+toc: yes
 ---
 ```{r setup, include=FALSE }
 knitr::opts_chunk$set(collapse = TRUE)
@@ -26,7 +24,7 @@ inicio <- as.Date("2010-01-01")
 fim <- today()
 
 ```
-# Varejo de Moda
+# :womans_clothes: Varejo da Moda
 ```{r,  warning = FALSE, message=FALSE, echo=FALSE}
 
 ticker <- c(
@@ -64,22 +62,30 @@ setor <- cbind(ticker, empresa)
 
 setor |> kbl() |> kable_classic_2(full_width = F)
 
-for (acao in setor) {
-	quantmod::getSymbols(paste0(ticker,".SA"), 
-											 src="yahoo", 
-											 from=inicio,to=fim,
-											 auto.assign = TRUE)}
+#for (acao in setor) {
+#	quantmod::getSymbols(paste0(ticker,".SA"), 
+#											 src="yahoo", 
+#											 from=inicio,to=fim,
+#											 auto.assign = TRUE)}
 
 ```
 
 
-# `r ticker[1]` - `r empresa[1]`
+## `r ticker[1]` - `r empresa[1]`
 
-:computer: **Site** : https://www.alpargatas.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.alpargatas.com.br/ 
+:computer: **Site** : https://www.alpargatas.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.alpargatas.com.br/   
 
 ```{r ALPA4 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+quantmod::getSymbols("ALPA4.SA", 
+											 src="yahoo", 
+											 from=inicio,to=fim,
+											 auto.assign = TRUE)
+
 BDchart <- na.omit(ALPA4.SA)
+
+
+
 chartSeries(BDchart,
 						theme=chartTheme('white',up.col='green',dn.col='red'),
 						name = empresa[1],
@@ -87,10 +93,10 @@ chartSeries(BDchart,
 						
 ```
 
-# `r ticker[2]` - `r empresa[2]`
+## `r ticker[2]` - `r empresa[2]`
 
-:computer: **Site** : https://www.arezzo.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.arezzoco.com.br/
+:computer: **Site** : https://www.arezzo.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.arezzoco.com.br/  
 
 ```{r ARZZ3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(ARZZ3.SA)
@@ -101,10 +107,10 @@ chartSeries(BDchart,
 						)
 ```
 
-# `r ticker[3]` - `r empresa[3]`
-
-:computer: **Site** : https://www.marisa.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.marisa.com.br/
+## `r ticker[3]` - `r empresa[3]`
+ 
+:computer: **Site** : https://www.marisa.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.marisa.com.br/  
 
 ```{r AMAR3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(AMAR3.SA)
@@ -115,10 +121,10 @@ chartSeries(BDchart,
 						)
 ```
 
-# `r ticker[4]` - `r empresa[4]`
+## `r ticker[4]` - `r empresa[4]`
 
-:computer: **Site** : https://www.cea.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.cea.com.br/
+:computer: **Site** : https://www.cea.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.cea.com.br/  
 
 ```{r CEAB3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(CEAB3.SA)
@@ -129,10 +135,10 @@ chartSeries(BDchart,
 						)
 ```
 
-# `r ticker[5]` - `r empresa[5]`
+## `r ticker[5]` - `r empresa[5]`
 
-:computer: **Site** : https://www.grendene.com.br/
-:bar_chart: **Relações com Investidores** : http://ri.grendene.com.br/PT
+:computer: **Site** : https://www.grendene.com.br/  
+:bar_chart: **Relações com Investidores** : http://ri.grendene.com.br/PT  
 
 ```{r GRND3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(GRND3.SA)
@@ -144,10 +150,10 @@ chartSeries(BDchart,
 ```
 
 
-# `r ticker[6]` - `r empresa[6]`
+## `r ticker[6]` - `r empresa[6]`
 
-:computer: **Site** : https://www.riachuelo.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.riachuelo.com.br/
+:computer: **Site** : https://www.riachuelo.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.riachuelo.com.br/  
 
 ```{r GUAR3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(GUAR3.SA)
@@ -159,10 +165,10 @@ chartSeries(BDchart,
 ```
 
 
-# `r ticker[7]` - `r empresa[7]`
+## `r ticker[7]` - `r empresa[7]`
 
-:computer: **Site** : https://ciahering.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.ciahering.com.br/
+:computer: **Site** : https://ciahering.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.ciahering.com.br/  
 
 ```{r HGTX3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(HGTX3.SA)
@@ -176,10 +182,10 @@ chartSeries(BDchart,
 
 
 
-# `r ticker[8]` - `r empresa[8]`
+## `r ticker[8]` - `r empresa[8]`
 
-:computer: **Site** : https://www.lojasrenner.com.br/
-:bar_chart: **Relações com Investidores** : https://lojasrenner.mzweb.com.br/
+:computer: **Site** : https://www.lojasrenner.com.br/  
+:bar_chart: **Relações com Investidores** : https://lojasrenner.mzweb.com.br/  
 
 ```{r LREN3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(LREN3.SA)
@@ -191,10 +197,10 @@ chartSeries(BDchart,
 ```
 
 
-# `r ticker[9]` - `r empresa[9]`
+## `r ticker[9]` - `r empresa[9]`
 
-:computer: **Site** : https://www.somagrupo.com.br/
-:bar_chart: **Relações com Investidores** : https://www.somagrupo.com.br/investidores/
+:computer: **Site** : https://www.somagrupo.com.br/  
+:bar_chart: **Relações com Investidores** : https://www.somagrupo.com.br/investidores/  
 
 ```{r SOMA3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(SOMA3.SA)
@@ -206,10 +212,10 @@ chartSeries(BDchart,
 ```
 
 
-# `r ticker[10]` - `r empresa[10]`
+## `r ticker[10]` - `r empresa[10]`
 
-:computer: **Site** : https://www.centauro.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.gruposbf.com.br/
+:computer: **Site** : https://www.centauro.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.gruposbf.com.br/  
 
 ```{r SBFG3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(SBFG3.SA)
@@ -220,10 +226,10 @@ chartSeries(BDchart,
 						)
 ```
 
-# `r ticker[11]` - `r empresa[11]`
+## `r ticker[11]` - `r empresa[11]`
 
-:computer: **Site** : https://www.vivara.com.br/
-:bar_chart: **Relações com Investidores** : https://ri.vivara.com.br/
+:computer: **Site** : https://www.vivara.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.vivara.com.br/  
 
 ```{r VIVA3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(VIVA3.SA)
@@ -234,11 +240,12 @@ chartSeries(BDchart,
 						)
 ```
 
-# `r ticker[12]` - `r empresa[12]`
+## `r ticker[12]` - `r empresa[12]`
 
-:computer: **Site** : https://www.mizuno.com.br/ https://www.olympikus.com.br/ https://www.underarmour.com.br/
+:computer: **Site** : https://www.mizuno.com.br/ 
+https://www.olympikus.com.br/     https://www.underarmour.com.br/  
 
-:bar_chart: **Relações com Investidores** : http://www.vulcabrasri.com/
+:bar_chart: **Relações com Investidores** : http://www.vulcabrasri.com/  
 
 ```{r VULC3 , warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
 BDchart <- na.omit(VULC3.SA)
