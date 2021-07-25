@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sat, 24 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Morte</title>
+      <link>https://lucianakeiko.github.io/tags/morte/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/morte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Suicídio</title>
+      <link>https://lucianakeiko.github.io/tags/suic%C3%ADdio/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/suic%C3%ADdio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Velhice</title>
+      <link>https://lucianakeiko.github.io/tags/velhice/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/velhice/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Seneca</title>
@@ -99,24 +126,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/s%C3%B3crates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Morte</title>
-      <link>https://lucianakeiko.github.io/tags/morte/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/morte/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Velhice</title>
-      <link>https://lucianakeiko.github.io/tags/velhice/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/velhice/</guid>
       <description></description>
     </item>
     
