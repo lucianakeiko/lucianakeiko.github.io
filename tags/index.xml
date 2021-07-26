@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Seneca</title>
+      <link>https://lucianakeiko.github.io/tags/seneca/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtude</title>
+      <link>https://lucianakeiko.github.io/tags/virtude/</link>
+      <pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/virtude/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Morte</title>
@@ -36,15 +54,6 @@
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/velhice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seneca</title>
-      <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Sat, 24 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
       <description></description>
     </item>
     
