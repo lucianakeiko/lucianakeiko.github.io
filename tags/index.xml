@@ -7,17 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Morte</title>
+      <link>https://lucianakeiko.github.io/tags/morte/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/morte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Seneca</title>
       <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La Rochefoucauld</title>
+      <link>https://lucianakeiko.github.io/tags/la-rochefoucauld/</link>
+      <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/la-rochefoucauld/</guid>
       <description></description>
     </item>
     
@@ -27,15 +45,6 @@
       <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/virtude/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Morte</title>
-      <link>https://lucianakeiko.github.io/tags/morte/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/morte/</guid>
       <description></description>
     </item>
     
