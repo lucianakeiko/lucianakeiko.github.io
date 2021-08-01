@@ -7,17 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Cleantes</title>
+      <link>https://lucianakeiko.github.io/tags/cleantes/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/cleantes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Crisipo</title>
+      <link>https://lucianakeiko.github.io/tags/crisipo/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/crisipo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epicuro</title>
+      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panécio</title>
+      <link>https://lucianakeiko.github.io/tags/pan%C3%A9cio/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/pan%C3%A9cio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posidônio</title>
+      <link>https://lucianakeiko.github.io/tags/posid%C3%B4nio/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/posid%C3%B4nio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Seneca</title>
       <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Fri, 30 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skin in the Game</title>
+      <link>https://lucianakeiko.github.io/tags/skin-in-the-game/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/skin-in-the-game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zenão</title>
+      <link>https://lucianakeiko.github.io/tags/zen%C3%A3o/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/zen%C3%A3o/</guid>
       <description></description>
     </item>
     
@@ -130,15 +193,6 @@
     </item>
     
     <item>
-      <title>Epicuro</title>
-      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
-      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tecnologia</title>
       <link>https://lucianakeiko.github.io/tags/tecnologia/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
@@ -247,29 +301,11 @@
     </item>
     
     <item>
-      <title>Skin in the Game</title>
-      <link>https://lucianakeiko.github.io/tags/skin-in-the-game/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/skin-in-the-game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Aristóteles</title>
       <link>https://lucianakeiko.github.io/tags/arist%C3%B3teles/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/arist%C3%B3teles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cleantes</title>
-      <link>https://lucianakeiko.github.io/tags/cleantes/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/cleantes/</guid>
       <description></description>
     </item>
     
@@ -297,15 +333,6 @@
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/trade/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zenão</title>
-      <link>https://lucianakeiko.github.io/tags/zen%C3%A3o/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/zen%C3%A3o/</guid>
       <description></description>
     </item>
     
