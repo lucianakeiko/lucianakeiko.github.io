@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEEKING on Homo Somnium</title>
+    <link>https://lucianakeiko.github.io/categories/seeking/</link>
+    <description>Recent content in SEEKING on Homo Somnium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 1982–2021</copyright>
+    <lastBuildDate>Sat, 31 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lucianakeiko.github.io/categories/seeking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linguistica Computacional</title>
+      <link>https://lucianakeiko.github.io/post/2021-07-31-linguistica-computacional/</link>
+      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/post/2021-07-31-linguistica-computacional/</guid>
+      <description>&lt;h1 id=&#34;linguística-computacional&#34;&gt;Linguística computacional&lt;/h1&gt;
+&lt;p&gt;A Linguística Computacional ou Processamento de língua natural (PLN, em inglês Natural Language Processing, sigla NLP) é um campo multidisciplinar que envolve a Inteligência Artificial, a Informática, a Estatística e a Linguística e que se utiliza de processos computacionais para manipulação da linguagem humana.&lt;/p&gt;
+&lt;h2 id=&#34;aula-0-introdução-ao-curso--linguística-computacional&#34;&gt;Aula 0: Introdução ao Curso | Linguística Computacional&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/T4_J6Q2E4k0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;aula-11-o-que-é-a-linguagem--linguística-computacional&#34;&gt;Aula 1.1: O que é a Linguagem? | Linguística Computacional&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/yiFUAwTb6hA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;aula-12-linguística-e-linguística-computacional--linguística-computacional&#34;&gt;Aula 1.2: Linguística e Linguística Computacional | Linguística Computacional&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/l_sxfDYYF1s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/videoseries?list=PLLrlHSmC0Mw73a1t73DEjgGMPyu8QssWT&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
