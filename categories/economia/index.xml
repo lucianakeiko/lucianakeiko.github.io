@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/categories/economia/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RealTime</title>
+      <link>https://lucianakeiko.github.io/post/2021-08-02-realtime/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/post/2021-08-02-realtime/</guid>
+      <description>
+&lt;script src=&#34;https://lucianakeiko.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;iframe width=&#34;1000&#34; height=&#34;450&#34; src=&#34;https://datastudio.google.com/embed/reporting/4c5bc19b-1b33-42bb-866b-feda5febdae7/page/QtzWC&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Pocs</title>
@@ -24,7 +39,7 @@
 
 &lt;div id=&#34;pocs&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;POC´s&lt;/h1&gt;
-&lt;iframe width=&#34;600&#34; height=&#34;1000&#34; src=&#34;https://datastudio.google.com/embed/reporting/0b15f43e-ea5b-471f-844c-81f767b8dd61/page/q0vWC&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;
+&lt;iframe width=&#34;1000&#34; height=&#34;1800&#34; src=&#34;https://datastudio.google.com/embed/reporting/0b15f43e-ea5b-471f-844c-81f767b8dd61/page/q0vWC&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
