@@ -52,6 +52,21 @@ chartSeries(to.weekly(AMAR3.SA),
 
 
 ```
+## VOLUME
+
+
+```{r}
+
+total <- AMAR3.SA$AMAR3.SA.Volume
+median(total)
+max(total)
+min(total)
+```
+
+
+
+
+
 ## Por dentro dos Resultados 2021 
 
 Anderson Figo - Info Money - 26/Mar/2021

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>CORE SELF</title>
       <link>https://lucianakeiko.github.io/categories/core-self/</link>
-      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/core-self/</guid>
       <description></description>
@@ -24,9 +24,27 @@
     <item>
       <title>Super Amigos</title>
       <link>https://lucianakeiko.github.io/categories/super-amigos/</link>
-      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/super-amigos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inédita Pamonha</title>
+      <link>https://lucianakeiko.github.io/categories/in%C3%A9dita-pamonha/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/in%C3%A9dita-pamonha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://lucianakeiko.github.io/categories/links/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/links/</guid>
       <description></description>
     </item>
     
@@ -72,15 +90,6 @@
       <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/art/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inédita Pamonha</title>
-      <link>https://lucianakeiko.github.io/categories/in%C3%A9dita-pamonha/</link>
-      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/categories/in%C3%A9dita-pamonha/</guid>
       <description></description>
     </item>
     
