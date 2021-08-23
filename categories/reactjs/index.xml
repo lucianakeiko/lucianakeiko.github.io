@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ReactJS on Homo Somnium</title>
+    <link>https://lucianakeiko.github.io/categories/reactjs/</link>
+    <description>Recent content in ReactJS on Homo Somnium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 1982–2021</copyright>
+    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lucianakeiko.github.io/categories/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ReactJS</title>
+      <link>https://lucianakeiko.github.io/post/2021-08-22-reactjs/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/post/2021-08-22-reactjs/</guid>
+      <description>&lt;h2 id=&#34;gaveta&#34;&gt;Gaveta&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;yarn init -y
+yarn add react
+yarn add react-dom
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;configurando-o-babel&#34;&gt;Configurando o Babel&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @babel/core @babel/cli @babel/preset-env -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 babel.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;module.exports = {
+    presets: [
+        &#39;@babel/preset-env&#39;
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ compilar na mão:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn babel src/index.js --out-file dist/bundle.js 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ o babel entender o react&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @babel/preset-react -D
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;e também &amp;lsquo;@babel/preset-react&amp;rsquo;, no babel config.&lt;/p&gt;
+&lt;h2 id=&#34;configurando-o-webpack&#34;&gt;Configurando o Webpack&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;yarn add webpack webpack-cli webpack-dev-server -D
+yarn add babel-loader -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const path = require(&#39;path&#39;)
+module.exports = {
+    entry: path.resolve(__dirname, &#39;src&#39;, &#39;index.jsx&#39;),
+    output: {
+        path: path.resolve(__dirname, &#39;dist&#39;),
+        filename: &#39;bundle.js&#39;
+    },
+    resolve: {
+        extensions: [&#39;.js&#39;, &#39;.jsx&#39;],
+    },
+    module: {
+        rules: [
+            {
+                test: /\.jsx$/,
+                exclude: /node_modules/,
+                use: &#39;babel-loader&#39;,
+            }
+        ],
+    }
+};
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ rodar&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn webpack
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
