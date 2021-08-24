@@ -63,7 +63,36 @@ module.exports = {
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ rodar&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;yarn webpack
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;estrutura-do-react&#34;&gt;Estrutura do React&lt;/h2&gt;
+&lt;p&gt;no 💾 babel.config.js&lt;/p&gt;
+&lt;p&gt;p/ não precisar importar o react&lt;/p&gt;
+&lt;p&gt;[ &amp;lsquo;@babel/preset-react&amp;rsquo;, {
+runtime: &amp;lsquo;automatic&amp;rsquo;
+}],&lt;/p&gt;
+&lt;p&gt;no webpack.config.js p/ compilar mais rápido&lt;/p&gt;
+&lt;h2 id=&#34;servindo-html-estático&#34;&gt;Servindo html estático&lt;/h2&gt;
+&lt;p&gt;p/ não perder o bundle =P 
+yarn add html-webpack-plugin -D&lt;/p&gt;
+&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;)
+
+. . . 
+
+
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, &#39;public&#39;, &#39;index.html&#39;)
+        })
+    ],
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;devserver&#34;&gt;DevServer&lt;/h2&gt;
+&lt;p&gt;-&amp;gt; Conf do Dev Server p/ ele criar o bundle automaticamente&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add webpack-dev-server -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;devServer: {
+    contentBase: path.resolve(__dirname, &#39;public&#39;),
+},&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>
