@@ -118,6 +118,9 @@ onload='renderMathInElement(document.body);'></script>
     <li><a href="#gaveta">Gaveta</a></li>
     <li><a href="#configurando-o-babel">Configurando o Babel</a></li>
     <li><a href="#configurando-o-webpack">Configurando o Webpack</a></li>
+    <li><a href="#estrutura-do-react">Estrutura do React</a></li>
+    <li><a href="#servindo-html-estático">Servindo html estático</a></li>
+    <li><a href="#devserver">DevServer</a></li>
   </ul>
 </nav>
 </div>
@@ -178,7 +181,36 @@ module.exports = {
 
 </code></pre><p>p/ rodar</p>
 <pre><code>yarn webpack
-</code></pre></div>
+</code></pre><h2 id="estrutura-do-react">Estrutura do React</h2>
+<p>no 💾 babel.config.js</p>
+<p>p/ não precisar importar o react</p>
+<p>[ &lsquo;@babel/preset-react&rsquo;, {
+runtime: &lsquo;automatic&rsquo;
+}],</p>
+<p>no webpack.config.js p/ compilar mais rápido</p>
+<h2 id="servindo-html-estático">Servindo html estático</h2>
+<p>p/ não perder o bundle =P 
+yarn add html-webpack-plugin -D</p>
+<p>no 💾 webpack.config.js</p>
+<pre><code>const HtmlWebpackPlugin = require('html-webpack-plugin')
+
+. . . 
+
+
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, 'public', 'index.html')
+        })
+    ],
+    
+</code></pre><h2 id="devserver">DevServer</h2>
+<p>-&gt; Conf do Dev Server p/ ele criar o bundle automaticamente</p>
+<pre><code>yarn add webpack-dev-server -D
+</code></pre><p>no 💾 webpack.config.js</p>
+<pre><code>devServer: {
+    contentBase: path.resolve(__dirname, 'public'),
+},</code></pre>
+</div>
 	</section> 
 
 </article>
@@ -333,7 +365,7 @@ module.exports = {
 	<div class="text-sm text-gray-500 leading-tight a-gray">
 		Copyright © 1982–2021
 		<br />
-		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 113 words in this page.
+		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 195 words in this page.
 	</div>
 </div>
 

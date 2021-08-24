@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Mon, 23 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Crisipo</title>
+      <link>https://lucianakeiko.github.io/tags/crisipo/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/crisipo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Seneca</title>
       <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
       <description></description>
@@ -24,9 +33,18 @@
     <item>
       <title>Ulisses</title>
       <link>https://lucianakeiko.github.io/tags/ulisses/</link>
-      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/ulisses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vergílio</title>
+      <link>https://lucianakeiko.github.io/tags/verg%C3%ADlio/</link>
+      <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/verg%C3%ADlio/</guid>
       <description></description>
     </item>
     
@@ -135,15 +153,6 @@
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/cleantes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Crisipo</title>
-      <link>https://lucianakeiko.github.io/tags/crisipo/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/crisipo/</guid>
       <description></description>
     </item>
     
