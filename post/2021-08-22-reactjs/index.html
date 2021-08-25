@@ -115,12 +115,18 @@ onload='renderMathInElement(document.body);'></script>
 <div class="inline toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#gaveta">Gaveta</a></li>
-    <li><a href="#configurando-o-babel">Configurando o Babel</a></li>
-    <li><a href="#configurando-o-webpack">Configurando o Webpack</a></li>
-    <li><a href="#estrutura-do-react">Estrutura do React</a></li>
-    <li><a href="#servindo-html-estático">Servindo html estático</a></li>
-    <li><a href="#devserver">DevServer</a></li>
+    <li><a href="#configurando-o-ambiente">Configurando o ambiente</a>
+      <ul>
+        <li><a href="#configurando-o-babel">Configurando o Babel</a></li>
+        <li><a href="#configurando-o-webpack">Configurando o Webpack</a></li>
+        <li><a href="#estrutura-do-react">Estrutura do React</a></li>
+        <li><a href="#servindo-html-estático">Servindo html estático</a></li>
+        <li><a href="#webpack-devserver">Webpack DevServer</a></li>
+        <li><a href="#source-maps">Source maps</a></li>
+        <li><a href="#ambiente-dev-e-produção">Ambiente dev e produção</a></li>
+        <li><a href="#importando-arquivos-css--sass-loader">Importando arquivos CSS + SASS loader</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
@@ -136,11 +142,11 @@ onload='renderMathInElement(document.body);'></script>
 
 <article>
 	<section class="mx-auto content">
-		<div class="c-rich-text"><h2 id="gaveta">Gaveta</h2>
+		<div class="c-rich-text"><h2 id="configurando-o-ambiente">Configurando o ambiente</h2>
 <pre><code>yarn init -y
 yarn add react
 yarn add react-dom
-</code></pre><h2 id="configurando-o-babel">Configurando o Babel</h2>
+</code></pre><h3 id="configurando-o-babel">Configurando o Babel</h3>
 <pre><code>yarn add @babel/core @babel/cli @babel/preset-env -D
 </code></pre><p>💾 babel.config.js</p>
 <pre><code>module.exports = {
@@ -154,7 +160,7 @@ yarn add react-dom
 <pre><code>yarn add @babel/preset-react -D
 
 </code></pre><p>e também &lsquo;@babel/preset-react&rsquo;, no babel config.</p>
-<h2 id="configurando-o-webpack">Configurando o Webpack</h2>
+<h3 id="configurando-o-webpack">Configurando o Webpack</h3>
 <pre><code>yarn add webpack webpack-cli webpack-dev-server -D
 yarn add babel-loader -D
 </code></pre><p>💾 webpack.config.js</p>
@@ -181,17 +187,17 @@ module.exports = {
 
 </code></pre><p>p/ rodar</p>
 <pre><code>yarn webpack
-</code></pre><h2 id="estrutura-do-react">Estrutura do React</h2>
+</code></pre><h3 id="estrutura-do-react">Estrutura do React</h3>
 <p>no 💾 babel.config.js</p>
 <p>p/ não precisar importar o react</p>
 <p>[ &lsquo;@babel/preset-react&rsquo;, {
 runtime: &lsquo;automatic&rsquo;
 }],</p>
 <p>no webpack.config.js p/ compilar mais rápido</p>
-<h2 id="servindo-html-estático">Servindo html estático</h2>
-<p>p/ não perder o bundle =P 
-yarn add html-webpack-plugin -D</p>
-<p>no 💾 webpack.config.js</p>
+<h3 id="servindo-html-estático">Servindo html estático</h3>
+<p>p/ injetar o bundle automaticamente.</p>
+<p>yarn add html-webpack-plugin -D
+no 💾 webpack.config.js</p>
 <pre><code>const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 . . . 
@@ -203,14 +209,42 @@ yarn add html-webpack-plugin -D</p>
         })
     ],
     
-</code></pre><h2 id="devserver">DevServer</h2>
+</code></pre><h3 id="webpack-devserver">Webpack DevServer</h3>
 <p>-&gt; Conf do Dev Server p/ ele criar o bundle automaticamente</p>
 <pre><code>yarn add webpack-dev-server -D
 </code></pre><p>no 💾 webpack.config.js</p>
-<pre><code>devServer: {
-    contentBase: path.resolve(__dirname, 'public'),
-},</code></pre>
-</div>
+<pre><code>    devServer: {
+        contentBase: path.resolve(__dirname, 'public'),
+    },
+</code></pre><h3 id="source-maps">Source maps</h3>
+<p>Forma de conseguir visualizar o código original mesmo quando todo o código tá embaralhado.</p>
+<p>no 💾 webpack.config.js</p>
+<pre><code>    devtool: isDevelopment ? 'eval-source-map' : 'source-map',
+</code></pre><h3 id="ambiente-dev-e-produção">Ambiente dev e produção</h3>
+<p>no 💾 webpack.config.js</p>
+<pre><code>const isDevelopment = process.env.NODE_ENV !== 'production';
+
+. . . 
+
+    mode: isDevelopment ? 'development' : 'production',
+    
+</code></pre><p>&ldquo;cross-env&rdquo;: para definir variáveis ambiente independente do SO.</p>
+<pre><code>yarn add cross-env -D
+</code></pre><p>e os scripts p/ os 2 casos</p>
+<pre><code> &quot;scripts&quot;: {
+    &quot;dev&quot;: &quot;webpack serve&quot;,
+    &quot;build&quot;: &quot;cross-env NODE_ENV=production webpack&quot;
+  },
+</code></pre><h3 id="importando-arquivos-css--sass-loader">Importando arquivos CSS + SASS loader</h3>
+<p>os modulos para a conversão</p>
+<pre><code>yarn add style-loader css-loader node-sass -D
+</code></pre><pre><code>
+  {
+                test: /\.scss$/ ,
+                exclude: /node_modules/,
+                use: ['style-loader','css-loader','sass-loader'],
+            }
+</code></pre></div>
 	</section> 
 
 </article>
@@ -365,7 +399,7 @@ yarn add html-webpack-plugin -D</p>
 	<div class="text-sm text-gray-500 leading-tight a-gray">
 		Copyright © 1982–2021
 		<br />
-		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 195 words in this page.
+		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 299 words in this page.
 	</div>
 </div>
 
