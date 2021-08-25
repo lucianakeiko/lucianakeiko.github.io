@@ -18,11 +18,11 @@
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/post/2021-08-22-reactjs/</guid>
-      <description>&lt;h2 id=&#34;gaveta&#34;&gt;Gaveta&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;configurando-o-ambiente&#34;&gt;Configurando o ambiente&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;yarn init -y
 yarn add react
 yarn add react-dom
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;configurando-o-babel&#34;&gt;Configurando o Babel&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configurando-o-babel&#34;&gt;Configurando o Babel&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;yarn add @babel/core @babel/cli @babel/preset-env -D
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 babel.config.js&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;module.exports = {
@@ -36,7 +36,7 @@ yarn add react-dom
 &lt;pre&gt;&lt;code&gt;yarn add @babel/preset-react -D
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;e também &amp;lsquo;@babel/preset-react&amp;rsquo;, no babel config.&lt;/p&gt;
-&lt;h2 id=&#34;configurando-o-webpack&#34;&gt;Configurando o Webpack&lt;/h2&gt;
+&lt;h3 id=&#34;configurando-o-webpack&#34;&gt;Configurando o Webpack&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;yarn add webpack webpack-cli webpack-dev-server -D
 yarn add babel-loader -D
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 webpack.config.js&lt;/p&gt;
@@ -63,17 +63,17 @@ module.exports = {
 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ rodar&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;yarn webpack
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;estrutura-do-react&#34;&gt;Estrutura do React&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;estrutura-do-react&#34;&gt;Estrutura do React&lt;/h3&gt;
 &lt;p&gt;no 💾 babel.config.js&lt;/p&gt;
 &lt;p&gt;p/ não precisar importar o react&lt;/p&gt;
 &lt;p&gt;[ &amp;lsquo;@babel/preset-react&amp;rsquo;, {
 runtime: &amp;lsquo;automatic&amp;rsquo;
 }],&lt;/p&gt;
 &lt;p&gt;no webpack.config.js p/ compilar mais rápido&lt;/p&gt;
-&lt;h2 id=&#34;servindo-html-estático&#34;&gt;Servindo html estático&lt;/h2&gt;
-&lt;p&gt;p/ não perder o bundle =P 
-yarn add html-webpack-plugin -D&lt;/p&gt;
-&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;h3 id=&#34;servindo-html-estático&#34;&gt;Servindo html estático&lt;/h3&gt;
+&lt;p&gt;p/ injetar o bundle automaticamente.&lt;/p&gt;
+&lt;p&gt;yarn add html-webpack-plugin -D
+no 💾 webpack.config.js&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;)
 
 . . . 
@@ -85,14 +85,42 @@ yarn add html-webpack-plugin -D&lt;/p&gt;
         })
     ],
     
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;devserver&#34;&gt;DevServer&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;webpack-devserver&#34;&gt;Webpack DevServer&lt;/h3&gt;
 &lt;p&gt;-&amp;gt; Conf do Dev Server p/ ele criar o bundle automaticamente&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;yarn add webpack-dev-server -D
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;devServer: {
-    contentBase: path.resolve(__dirname, &#39;public&#39;),
-},&lt;/code&gt;&lt;/pre&gt;
-</description>
+&lt;pre&gt;&lt;code&gt;    devServer: {
+        contentBase: path.resolve(__dirname, &#39;public&#39;),
+    },
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;source-maps&#34;&gt;Source maps&lt;/h3&gt;
+&lt;p&gt;Forma de conseguir visualizar o código original mesmo quando todo o código tá embaralhado.&lt;/p&gt;
+&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    devtool: isDevelopment ? &#39;eval-source-map&#39; : &#39;source-map&#39;,
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;ambiente-dev-e-produção&#34;&gt;Ambiente dev e produção&lt;/h3&gt;
+&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const isDevelopment = process.env.NODE_ENV !== &#39;production&#39;;
+
+. . . 
+
+    mode: isDevelopment ? &#39;development&#39; : &#39;production&#39;,
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;ldquo;cross-env&amp;rdquo;: para definir variáveis ambiente independente do SO.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add cross-env -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;e os scripts p/ os 2 casos&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; &amp;quot;scripts&amp;quot;: {
+    &amp;quot;dev&amp;quot;: &amp;quot;webpack serve&amp;quot;,
+    &amp;quot;build&amp;quot;: &amp;quot;cross-env NODE_ENV=production webpack&amp;quot;
+  },
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;importando-arquivos-css--sass-loader&#34;&gt;Importando arquivos CSS + SASS loader&lt;/h3&gt;
+&lt;p&gt;os modulos para a conversão&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add style-loader css-loader node-sass -D
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;
+  {
+                test: /\.scss$/ ,
+                exclude: /node_modules/,
+                use: [&#39;style-loader&#39;,&#39;css-loader&#39;,&#39;sass-loader&#39;],
+            }
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
   </channel>
