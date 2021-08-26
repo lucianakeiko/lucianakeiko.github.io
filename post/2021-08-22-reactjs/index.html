@@ -117,14 +117,15 @@ onload='renderMathInElement(document.body);'></script>
   <ul>
     <li><a href="#configurando-o-ambiente">Configurando o ambiente</a>
       <ul>
-        <li><a href="#configurando-o-babel">Configurando o Babel</a></li>
-        <li><a href="#configurando-o-webpack">Configurando o Webpack</a></li>
-        <li><a href="#estrutura-do-react">Estrutura do React</a></li>
-        <li><a href="#servindo-html-estático">Servindo html estático</a></li>
-        <li><a href="#webpack-devserver">Webpack DevServer</a></li>
-        <li><a href="#source-maps">Source maps</a></li>
-        <li><a href="#ambiente-dev-e-produção">Ambiente dev e produção</a></li>
-        <li><a href="#importando-arquivos-css--sass-loader">Importando arquivos CSS + SASS loader</a></li>
+        <li><a href="#1-configurando-o-babel">[1] Configurando o Babel</a></li>
+        <li><a href="#2-configurando-o-webpack">[2] Configurando o Webpack</a></li>
+        <li><a href="#3-estrutura-do-react">[3] Estrutura do React</a></li>
+        <li><a href="#4-servindo-html-estático">[4] Servindo html estático</a></li>
+        <li><a href="#5-webpack-devserver">[5] Webpack DevServer</a></li>
+        <li><a href="#6-source-maps">[6] Source maps</a></li>
+        <li><a href="#7-ambiente-dev-e-produção">[7] Ambiente dev e produção</a></li>
+        <li><a href="#8importando-arquivos-css--sass-loader">[8]Importando arquivos CSS + SASS loader</a></li>
+        <li><a href="#9-fast-refresh-no-webpack">[9] Fast Refresh no Webpack</a></li>
       </ul>
     </li>
   </ul>
@@ -146,7 +147,7 @@ onload='renderMathInElement(document.body);'></script>
 <pre><code>yarn init -y
 yarn add react
 yarn add react-dom
-</code></pre><h3 id="configurando-o-babel">Configurando o Babel</h3>
+</code></pre><h3 id="1-configurando-o-babel">[1] Configurando o Babel</h3>
 <pre><code>yarn add @babel/core @babel/cli @babel/preset-env -D
 </code></pre><p>💾 babel.config.js</p>
 <pre><code>module.exports = {
@@ -159,8 +160,9 @@ yarn add react-dom
 </code></pre><p>p/ o babel entender o react</p>
 <pre><code>yarn add @babel/preset-react -D
 
-</code></pre><p>e também &lsquo;@babel/preset-react&rsquo;, no babel config.</p>
-<h3 id="configurando-o-webpack">Configurando o Webpack</h3>
+</code></pre><p>💾 webpack.config.js</p>
+<pre><code>'@babel/preset-react'
+</code></pre><h3 id="2-configurando-o-webpack">[2] Configurando o Webpack</h3>
 <pre><code>yarn add webpack webpack-cli webpack-dev-server -D
 yarn add babel-loader -D
 </code></pre><p>💾 webpack.config.js</p>
@@ -187,17 +189,17 @@ module.exports = {
 
 </code></pre><p>p/ rodar</p>
 <pre><code>yarn webpack
-</code></pre><h3 id="estrutura-do-react">Estrutura do React</h3>
+</code></pre><h3 id="3-estrutura-do-react">[3] Estrutura do React</h3>
 <p>no 💾 babel.config.js</p>
 <p>p/ não precisar importar o react</p>
-<p>[ &lsquo;@babel/preset-react&rsquo;, {
-runtime: &lsquo;automatic&rsquo;
-}],</p>
-<p>no webpack.config.js p/ compilar mais rápido</p>
-<h3 id="servindo-html-estático">Servindo html estático</h3>
+<pre><code>
+[ '@babel/preset-react', {
+           runtime: 'automatic'
+       }],
+</code></pre><h3 id="4-servindo-html-estático">[4] Servindo html estático</h3>
 <p>p/ injetar o bundle automaticamente.</p>
-<p>yarn add html-webpack-plugin -D
-no 💾 webpack.config.js</p>
+<pre><code>yarn add html-webpack-plugin -D
+</code></pre><p>no 💾 webpack.config.js</p>
 <pre><code>const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 . . . 
@@ -209,18 +211,20 @@ no 💾 webpack.config.js</p>
         })
     ],
     
-</code></pre><h3 id="webpack-devserver">Webpack DevServer</h3>
+</code></pre><h3 id="5-webpack-devserver">[5] Webpack DevServer</h3>
 <p>-&gt; Conf do Dev Server p/ ele criar o bundle automaticamente</p>
 <pre><code>yarn add webpack-dev-server -D
+
+yarn add webpack-dev-server@3.11.1
 </code></pre><p>no 💾 webpack.config.js</p>
 <pre><code>    devServer: {
         contentBase: path.resolve(__dirname, 'public'),
     },
-</code></pre><h3 id="source-maps">Source maps</h3>
+</code></pre><h3 id="6-source-maps">[6] Source maps</h3>
 <p>Forma de conseguir visualizar o código original mesmo quando todo o código tá embaralhado.</p>
 <p>no 💾 webpack.config.js</p>
 <pre><code>    devtool: isDevelopment ? 'eval-source-map' : 'source-map',
-</code></pre><h3 id="ambiente-dev-e-produção">Ambiente dev e produção</h3>
+</code></pre><h3 id="7-ambiente-dev-e-produção">[7] Ambiente dev e produção</h3>
 <p>no 💾 webpack.config.js</p>
 <pre><code>const isDevelopment = process.env.NODE_ENV !== 'production';
 
@@ -235,7 +239,7 @@ no 💾 webpack.config.js</p>
     &quot;dev&quot;: &quot;webpack serve&quot;,
     &quot;build&quot;: &quot;cross-env NODE_ENV=production webpack&quot;
   },
-</code></pre><h3 id="importando-arquivos-css--sass-loader">Importando arquivos CSS + SASS loader</h3>
+</code></pre><h3 id="8importando-arquivos-css--sass-loader">[8]Importando arquivos CSS + SASS loader</h3>
 <p>os modulos para a conversão</p>
 <pre><code>yarn add style-loader css-loader node-sass -D
 </code></pre><pre><code>
@@ -244,6 +248,37 @@ no 💾 webpack.config.js</p>
                 exclude: /node_modules/,
                 use: ['style-loader','css-loader','sass-loader'],
             }
+</code></pre><h3 id="9-fast-refresh-no-webpack">[9] Fast Refresh no Webpack</h3>
+<p>: padrão: reseta estados.</p>
+<pre><code>yarn add @pmmmwh/react-refresh-webpack-plugin react-refresh -D
+</code></pre><p>no 💾 webpack.config.js
+(só faz sentido em desenvolvimento)</p>
+<pre><code>const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
+
+
+...
+
+isDevelopment &amp;&amp; new ReactRefreshWebpackPlugin(),
+
+...
+# -&gt; *ps :: para resolver o false no caso do &quot;não desenvolvimento&quot;
+
+
+   ].filter(Boolean),
+
+... 
+# -&gt; no devServer
+  hot: true,
+
+... 
+no babel-loader:
+
+      use: {
+                   loader: 'babel-loader',
+                   options: {
+                       plugins: [
+                           isDevelopment &amp;&amp; require.resolve('react-refresh/babel')
+                       ].filter(Boolean
 </code></pre></div>
 	</section> 
 
@@ -399,7 +434,7 @@ no 💾 webpack.config.js</p>
 	<div class="text-sm text-gray-500 leading-tight a-gray">
 		Copyright © 1982–2021
 		<br />
-		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 299 words in this page.
+		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 368 words in this page.
 	</div>
 </div>
 
