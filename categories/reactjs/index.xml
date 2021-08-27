@@ -116,7 +116,7 @@ yarn add webpack-dev-server@3.11.1
   },
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;8importando-arquivos-css--sass-loader&#34;&gt;[8]Importando arquivos CSS + SASS loader&lt;/h3&gt;
 &lt;p&gt;os modulos para a conversão&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;yarn add style-loader css-loader node-sass -D
+&lt;pre&gt;&lt;code&gt;yarn add style-loader css-loader node-sass sass-loader -D
 &lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;
   {
                 test: /\.scss$/ ,
