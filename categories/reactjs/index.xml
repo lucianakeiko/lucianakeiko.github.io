@@ -154,7 +154,51 @@ no babel-loader:
                        plugins: [
                            isDevelopment &amp;amp;&amp;amp; require.resolve(&#39;react-refresh/babel&#39;)
                        ].filter(Boolean
-&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;10-typescript&#34;&gt;[10] Typescript&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;yarn add typescript -D
+
+yarn tsc --init 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 tsconfig.json&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[15]  &amp;quot;lib&amp;quot;: [ &amp;quot; DOM&amp;quot; , &amp;quot;DOM.Iterable&amp;quot;, &amp;quot;ESNext&amp;quot;],          
+
+[40]  &amp;quot;allowJs&amp;quot;: true,       
+
+[70]  &amp;quot;allowSyntheticDefaultImports&amp;quot;: true,                          
+
+[29]   &amp;quot;moduleResolution&amp;quot;: &amp;quot;node&amp;quot;,  
+
+[36]   &amp;quot;resolveJsonModule&amp;quot;: true,  
+
+[69] &amp;quot;isolatedModules&amp;quot;: true,  
+
+[52] &amp;quot;noEmit&amp;quot;: true,
+
+[17] &amp;quot;jsx&amp;quot;:&amp;quot;react-jsx&amp;quot;,
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;REMOVER:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;target&amp;quot;: &amp;quot;es5&amp;quot;,
+&amp;quot;module&amp;quot;: &amp;quot;commonjs&amp;quot;,   
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-&amp;gt; ADD&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  &amp;quot;include&amp;quot;: [&amp;quot;src&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ o BABEL entender o typescript&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @babel/preset-typescript -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 babel.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&#39;@babel/preset-typescript&#39;,
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;test: /\. (j|t)sx$/,
+
+...   
+extensions: [&#39;.js&#39;, &#39;.jsx&#39;, &#39;.ts&#39;, &#39;.tsx&#39;],
+
+...   
+ entry: path.resolve(__dirname, &#39;src&#39;, &#39;index.tsx&#39;),
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;os types iniciais:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @types/react-dom -D
+yarn add @types/react -D
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;lembrete&#34;&gt;Lembrete&lt;/h2&gt;
+&lt;p&gt;atalhos vscode::
+control + shift + L  :  seleciona todas as ocorrencias  [ + END &amp;ndash; vai pra linha toda ]&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -126,8 +126,10 @@ onload='renderMathInElement(document.body);'></script>
         <li><a href="#7-ambiente-dev-e-produção">[7] Ambiente dev e produção</a></li>
         <li><a href="#8importando-arquivos-css--sass-loader">[8]Importando arquivos CSS + SASS loader</a></li>
         <li><a href="#9-fast-refresh-no-webpack">[9] Fast Refresh no Webpack</a></li>
+        <li><a href="#10-typescript">[10] Typescript</a></li>
       </ul>
     </li>
+    <li><a href="#lembrete">Lembrete</a></li>
   </ul>
 </nav>
 </div>
@@ -279,7 +281,51 @@ no babel-loader:
                        plugins: [
                            isDevelopment &amp;&amp; require.resolve('react-refresh/babel')
                        ].filter(Boolean
-</code></pre></div>
+</code></pre><h3 id="10-typescript">[10] Typescript</h3>
+<pre><code>yarn add typescript -D
+
+yarn tsc --init 
+
+</code></pre><p>no 💾 tsconfig.json</p>
+<pre><code>[15]  &quot;lib&quot;: [ &quot; DOM&quot; , &quot;DOM.Iterable&quot;, &quot;ESNext&quot;],          
+
+[40]  &quot;allowJs&quot;: true,       
+
+[70]  &quot;allowSyntheticDefaultImports&quot;: true,                          
+
+[29]   &quot;moduleResolution&quot;: &quot;node&quot;,  
+
+[36]   &quot;resolveJsonModule&quot;: true,  
+
+[69] &quot;isolatedModules&quot;: true,  
+
+[52] &quot;noEmit&quot;: true,
+
+[17] &quot;jsx&quot;:&quot;react-jsx&quot;,
+</code></pre><p>REMOVER:</p>
+<pre><code>&quot;target&quot;: &quot;es5&quot;,
+&quot;module&quot;: &quot;commonjs&quot;,   
+</code></pre><p>-&gt; ADD</p>
+<pre><code>  &quot;include&quot;: [&quot;src&quot;]
+</code></pre><p>p/ o BABEL entender o typescript</p>
+<pre><code>yarn add @babel/preset-typescript -D
+</code></pre><p>💾 babel.config.js</p>
+<pre><code>'@babel/preset-typescript',
+</code></pre><p>no 💾 webpack.config.js</p>
+<pre><code>test: /\. (j|t)sx$/,
+
+...   
+extensions: ['.js', '.jsx', '.ts', '.tsx'],
+
+...   
+ entry: path.resolve(__dirname, 'src', 'index.tsx'),
+</code></pre><p>os types iniciais:</p>
+<pre><code>yarn add @types/react-dom -D
+yarn add @types/react -D
+</code></pre><h2 id="lembrete">Lembrete</h2>
+<p>atalhos vscode::
+control + shift + L  :  seleciona todas as ocorrencias  [ + END &ndash; vai pra linha toda ]</p>
+</div>
 	</section> 
 
 </article>
@@ -434,7 +480,7 @@ no babel-loader:
 	<div class="text-sm text-gray-500 leading-tight a-gray">
 		Copyright © 1982–2021
 		<br />
-		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 369 words in this page.
+		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 481 words in this page.
 	</div>
 </div>
 
