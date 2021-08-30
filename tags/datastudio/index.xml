@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sat, 14 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/datastudio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>🏠 Mundo Real</title>
+      <link>https://lucianakeiko.github.io/post/2021-08-29-mundo-real/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/post/2021-08-29-mundo-real/</guid>
+      <description>&lt;iframe width=&#34;600&#34; height=&#34;795&#34; src=&#34;https://datastudio.google.com/embed/reporting/8099f800-6f62-4068-8edb-89bf019a30d0/page/YxTXC&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>300P - Contas</title>
