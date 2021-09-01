@@ -7,17 +7,71 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Tue, 31 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Catão</title>
+      <link>https://lucianakeiko.github.io/tags/cat%C3%A3o/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/cat%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cleantes</title>
+      <link>https://lucianakeiko.github.io/tags/cleantes/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/cleantes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platão</title>
+      <link>https://lucianakeiko.github.io/tags/plat%C3%A3o/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/plat%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platãozinho</title>
+      <link>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Seneca</title>
       <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sócrates</title>
+      <link>https://lucianakeiko.github.io/tags/s%C3%B3crates/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/s%C3%B3crates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zenão</title>
+      <link>https://lucianakeiko.github.io/tags/zen%C3%A3o/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/zen%C3%A3o/</guid>
       <description></description>
     </item>
     
@@ -40,38 +94,11 @@
     </item>
     
     <item>
-      <title>Catão</title>
-      <link>https://lucianakeiko.github.io/tags/cat%C3%A3o/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/cat%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cícero</title>
       <link>https://lucianakeiko.github.io/tags/c%C3%ADcero/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/c%C3%ADcero/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Platão</title>
-      <link>https://lucianakeiko.github.io/tags/plat%C3%A3o/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/plat%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Platãozinho</title>
-      <link>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</guid>
       <description></description>
     </item>
     
@@ -175,15 +202,6 @@
     </item>
     
     <item>
-      <title>Cleantes</title>
-      <link>https://lucianakeiko.github.io/tags/cleantes/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/cleantes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Freud</title>
       <link>https://lucianakeiko.github.io/tags/freud/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
@@ -216,15 +234,6 @@
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/skin-in-the-game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zenão</title>
-      <link>https://lucianakeiko.github.io/tags/zen%C3%A3o/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/zen%C3%A3o/</guid>
       <description></description>
     </item>
     
@@ -360,15 +369,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/p%C3%A2nico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sócrates</title>
-      <link>https://lucianakeiko.github.io/tags/s%C3%B3crates/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/s%C3%B3crates/</guid>
       <description></description>
     </item>
     
