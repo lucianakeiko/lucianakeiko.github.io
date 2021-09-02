@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aristóteles</title>
+      <link>https://lucianakeiko.github.io/tags/arist%C3%B3teles/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/arist%C3%B3teles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Platãozinho</title>
+      <link>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seneca</title>
+      <link>https://lucianakeiko.github.io/tags/seneca/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Catão</title>
@@ -36,24 +63,6 @@
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/plat%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Platãozinho</title>
-      <link>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/plat%C3%A3ozinho/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seneca</title>
-      <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
       <description></description>
     </item>
     
@@ -423,15 +432,6 @@
       <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/dem%C3%B3crito/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aristóteles</title>
-      <link>https://lucianakeiko.github.io/tags/arist%C3%B3teles/</link>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/arist%C3%B3teles/</guid>
       <description></description>
     </item>
     
