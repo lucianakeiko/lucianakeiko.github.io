@@ -7,26 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Catão</title>
+      <link>https://lucianakeiko.github.io/tags/cat%C3%A3o/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/cat%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Seneca</title>
       <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Catão</title>
-      <link>https://lucianakeiko.github.io/tags/cat%C3%A3o/</link>
-      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Suicídio</title>
+      <link>https://lucianakeiko.github.io/tags/suic%C3%ADdio/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lucianakeiko.github.io/tags/cat%C3%A3o/</guid>
+      <guid>https://lucianakeiko.github.io/tags/suic%C3%ADdio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sócrates</title>
+      <link>https://lucianakeiko.github.io/tags/s%C3%B3crates/</link>
+      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/s%C3%B3crates/</guid>
       <description></description>
     </item>
     
@@ -45,15 +63,6 @@
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/rut%C3%ADlio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sócrates</title>
-      <link>https://lucianakeiko.github.io/tags/s%C3%B3crates/</link>
-      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/s%C3%B3crates/</guid>
       <description></description>
     </item>
     
@@ -315,15 +324,6 @@
       <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/la-rochefoucauld/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Suicídio</title>
-      <link>https://lucianakeiko.github.io/tags/suic%C3%ADdio/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/suic%C3%ADdio/</guid>
       <description></description>
     </item>
     
