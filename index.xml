@@ -1643,7 +1643,10 @@ Idioma: português de Portugal&lt;br&gt;
       <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/post/2021-08-28-como-e-porque-a-consci%C3%AAncia-surge/</guid>
-      <description>&lt;p&gt;💭	Se eu tivesse capacidade técnica/acadêmica pra organizar todos os aprendizados que eu colecionei nos últimos 20 anos, e de tudo o que eu descobri empiricamente com meus experimentos existenciais e investigações dos meus amigos mortos, esse artigo seria o resultado dessa organização mental.
+      <description>&lt;p&gt;{{ if or .Params.math .Site.Params.math }}
+{{ partial &amp;ldquo;math.html&amp;rdquo; . }}
+{{ end }}&lt;/p&gt;
+&lt;p&gt;💭	Se eu tivesse capacidade técnica/acadêmica pra organizar todos os aprendizados que eu colecionei nos últimos 20 anos, e de tudo o que eu descobri empiricamente com meus experimentos existenciais e investigações dos meus amigos mortos, esse artigo seria o resultado dessa organização mental.
 Mas eu não escrevi. Então estou traduzindo. &lt;sub&gt;estou dizendo dos processos! ( e não da hipótese de definir a consciência. Eu não estou preocupada em defini-la. mas em hackeá-la.&lt;/sub&gt;&lt;/p&gt;
 &lt;h2 id=&#34;como-e-porque-a-consciência-surge-&#34;&gt;Como e porque a consciência surge 🧠&lt;/h2&gt;
 &lt;p&gt;Algumas considerações da física e fisiologia.
