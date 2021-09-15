@@ -7,15 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Catão</title>
+      <link>https://lucianakeiko.github.io/tags/cat%C3%A3o/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/cat%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demócrito</title>
+      <link>https://lucianakeiko.github.io/tags/dem%C3%B3crito/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/dem%C3%B3crito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epicuro</title>
+      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metrodoro</title>
+      <link>https://lucianakeiko.github.io/tags/metrodoro/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/metrodoro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ovídio</title>
+      <link>https://lucianakeiko.github.io/tags/ov%C3%ADdio/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/ov%C3%ADdio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rutílio</title>
+      <link>https://lucianakeiko.github.io/tags/rut%C3%ADlio/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/rut%C3%ADlio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Seneca</title>
       <link>https://lucianakeiko.github.io/tags/seneca/</link>
-      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/seneca/</guid>
       <description></description>
@@ -24,18 +78,18 @@
     <item>
       <title>Sócrates</title>
       <link>https://lucianakeiko.github.io/tags/s%C3%B3crates/</link>
-      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/s%C3%B3crates/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Catão</title>
-      <link>https://lucianakeiko.github.io/tags/cat%C3%A3o/</link>
-      <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Virgílio</title>
+      <link>https://lucianakeiko.github.io/tags/virg%C3%ADlio/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lucianakeiko.github.io/tags/cat%C3%A3o/</guid>
+      <guid>https://lucianakeiko.github.io/tags/virg%C3%ADlio/</guid>
       <description></description>
     </item>
     
@@ -45,24 +99,6 @@
       <pubDate>Tue, 07 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/suic%C3%ADdio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Epicuro</title>
-      <link>https://lucianakeiko.github.io/tags/epicuro/</link>
-      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/epicuro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rutílio</title>
-      <link>https://lucianakeiko.github.io/tags/rut%C3%ADlio/</link>
-      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/rut%C3%ADlio/</guid>
       <description></description>
     </item>
     
@@ -432,15 +468,6 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/sabedoria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demócrito</title>
-      <link>https://lucianakeiko.github.io/tags/dem%C3%B3crito/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/dem%C3%B3crito/</guid>
       <description></description>
     </item>
     
