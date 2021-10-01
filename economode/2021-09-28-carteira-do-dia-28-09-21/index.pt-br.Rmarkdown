@@ -10,14 +10,34 @@ description: 'Carteira do Dia - 28/09/21'
 toc: true
 ---
 
+```{r, echo=FALSE}
+library(kableExtra)
+library(dplyr)
+library(readr)
+
+qikapi_classificaccaoSetorial <- read_csv("../../../dados/qikapi_classificaccaoSetorial.csv")
+
+nEmpresas <- qikapi_classificaccaoSetorial |> 
+	summarise(n = n())
+ 
+empresas <- qikapi_classificaccaoSetorial |> 
+	group_by(`SETOR ECONÔMICO`) |> 
+	summarise(empresas = n()) |> 
+	arrange(desc(empresas))
+
+empresas |> kbl() |> kable_classic_2(full_width = F)
+
+```
+
+
 ### Carteira do Dia - 28/09/21
 
 ## 5 mais representativas
 
-- VALE3	VALE 12,057
-- ITUB4	ITAUUNIBANCO 6,286
-- PETR4	PETROBRAS 5,61
-- BBDC4	BRADESCO 4,432
+- VALE3 - 	VALE 12,057 (Materiais Básicos > Mineração > Minerais Metálicos)
+- ITUB4	ITAUUNIBANCO 6,286 ( Financeiro> Intermediários Financeiros > Bancos )
+- PETR4	PETROBRAS 5,61 (Petróleo, Gás e Biocombustíveis	> Petróleo, Gás e Biocombustíveis > Exploração, Refino e Distribuição)
+- BBDC4	BRADESCO 4,432  ( Financeiro> Intermediários Financeiros > Bancos )
 - PETR3	PETROBRAS 4,341
 
 

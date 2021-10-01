@@ -18,13 +18,91 @@
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/economode/2021-09-28-carteira-do-dia-28-09-21/</guid>
-      <description>&lt;h3 id=&#34;carteira-do-dia---280921&#34;&gt;Carteira do Dia - 28/09/21&lt;/h3&gt;
+      <description>&lt;script src=&#34;https://lucianakeiko.github.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://lucianakeiko.github.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;dplyr&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## The following object is masked from &#39;package:kableExtra&#39;:
+## 
+##     group_rows
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;## 
+## -- Column specification --------------------------------------------------------
+## cols(
+##   `SETOR ECONÔMICO` = col_character(),
+##   SUBSETOR = col_character(),
+##   SEGMENTO = col_character(),
+##   NOME_B3 = col_character(),
+##   LISTAGEM_DOC = col_character(),
+##   LISTAGEM_SEGMENTO = col_character(),
+##   GF_codigo = col_logical()
+## )
+&lt;/code&gt;&lt;/pre&gt;&lt;table class=&#34; lightable-classic-2&#34; style=&#39;font-family: &#34;Arial Narrow&#34;, &#34;Source Sans Pro&#34;, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;&#39;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&#34;text-align:left;&#34;&gt; SETOR ECONÔMICO &lt;/th&gt;
+   &lt;th style=&#34;text-align:right;&#34;&gt; empresas &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Consumo Cíclico &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 95 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Financeiro &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 87 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Bens Industriais &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 76 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Utilidade Pública &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 69 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Materiais Básicos &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Consumo não Cíclico &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Saúde &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Tecnologia da Informação &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 19 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Outros &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Petróleo, Gás e Biocombustíveis &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&#34;text-align:left;&#34;&gt; Comunicações &lt;/td&gt;
+   &lt;td style=&#34;text-align:right;&#34;&gt; 10 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;carteira-do-dia---280921&#34;&gt;Carteira do Dia - 28/09/21&lt;/h3&gt;
 &lt;h2 id=&#34;5-mais-representativas&#34;&gt;5 mais representativas&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;VALE3	VALE 12,057&lt;/li&gt;
-&lt;li&gt;ITUB4	ITAUUNIBANCO 6,286&lt;/li&gt;
-&lt;li&gt;PETR4	PETROBRAS 5,61&lt;/li&gt;
-&lt;li&gt;BBDC4	BRADESCO 4,432&lt;/li&gt;
+&lt;li&gt;VALE3 - 	VALE 12,057 (Materiais Básicos &amp;gt; Mineração &amp;gt; Minerais Metálicos)&lt;/li&gt;
+&lt;li&gt;ITUB4	ITAUUNIBANCO 6,286 ( Financeiro&amp;gt; Intermediários Financeiros &amp;gt; Bancos )&lt;/li&gt;
+&lt;li&gt;PETR4	PETROBRAS 5,61 (Petróleo, Gás e Biocombustíveis	&amp;gt; Petróleo, Gás e Biocombustíveis &amp;gt; Exploração, Refino e Distribuição)&lt;/li&gt;
+&lt;li&gt;BBDC4	BRADESCO 4,432  ( Financeiro&amp;gt; Intermediários Financeiros &amp;gt; Bancos )&lt;/li&gt;
 &lt;li&gt;PETR3	PETROBRAS 4,341&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;5-mais-baratas&#34;&gt;5 mais baratas&lt;/h2&gt;
