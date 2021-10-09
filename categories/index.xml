@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>CORE SELF</title>
       <link>https://lucianakeiko.github.io/categories/core-self/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/core-self/</guid>
       <description></description>
@@ -24,9 +24,18 @@
     <item>
       <title>Super Amigos</title>
       <link>https://lucianakeiko.github.io/categories/super-amigos/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/super-amigos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMK</title>
+      <link>https://lucianakeiko.github.io/categories/mmk/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/mmk/</guid>
       <description></description>
     </item>
     
@@ -108,15 +117,6 @@
       <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/links/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MMK</title>
-      <link>https://lucianakeiko.github.io/categories/mmk/</link>
-      <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/categories/mmk/</guid>
       <description></description>
     </item>
     
