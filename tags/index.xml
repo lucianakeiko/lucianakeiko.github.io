@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Marco Aurélio</title>
       <link>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</link>
-      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Meditações</title>
       <link>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</link>
-      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</guid>
       <description></description>
@@ -652,6 +652,51 @@
     </item>
     
     <item>
+      <title>Confiança</title>
+      <link>https://lucianakeiko.github.io/tags/confian%C3%A7a/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/confian%C3%A7a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contaminação</title>
+      <link>https://lucianakeiko.github.io/tags/contamina%C3%A7%C3%A3o/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/contamina%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dor</title>
+      <link>https://lucianakeiko.github.io/tags/dor/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/dor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multidão</title>
+      <link>https://lucianakeiko.github.io/tags/multid%C3%A3o/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/multid%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vigilância</title>
+      <link>https://lucianakeiko.github.io/tags/vigil%C3%A2ncia/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/vigil%C3%A2ncia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Amizade</title>
       <link>https://lucianakeiko.github.io/tags/amizade/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
@@ -742,33 +787,6 @@
     </item>
     
     <item>
-      <title>Contaminação</title>
-      <link>https://lucianakeiko.github.io/tags/contamina%C3%A7%C3%A3o/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/contamina%C3%A7%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Multidão</title>
-      <link>https://lucianakeiko.github.io/tags/multid%C3%A3o/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/multid%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vigilância</title>
-      <link>https://lucianakeiko.github.io/tags/vigil%C3%A2ncia/</link>
-      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/vigil%C3%A2ncia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gödel</title>
       <link>https://lucianakeiko.github.io/tags/g%C3%B6del/</link>
       <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
@@ -819,15 +837,6 @@
       <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/necess%C3%A1rios/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Confiança</title>
-      <link>https://lucianakeiko.github.io/tags/confian%C3%A7a/</link>
-      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/confian%C3%A7a/</guid>
       <description></description>
     </item>
     
