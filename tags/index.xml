@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Wed, 08 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Marco Aurélio</title>
       <link>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Meditações</title>
       <link>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</guid>
       <description></description>
@@ -625,6 +625,33 @@
     </item>
     
     <item>
+      <title>corpo</title>
+      <link>https://lucianakeiko.github.io/tags/corpo/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/corpo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>liberdade</title>
+      <link>https://lucianakeiko.github.io/tags/liberdade/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/liberdade/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>riqueza</title>
+      <link>https://lucianakeiko.github.io/tags/riqueza/</link>
+      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/riqueza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pânico</title>
       <link>https://lucianakeiko.github.io/tags/p%C3%A2nico/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
@@ -801,15 +828,6 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/sabedoria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>liberdade</title>
-      <link>https://lucianakeiko.github.io/tags/liberdade/</link>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/liberdade/</guid>
       <description></description>
     </item>
     
