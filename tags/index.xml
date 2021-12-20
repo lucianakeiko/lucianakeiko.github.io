@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Marco Aurélio</title>
       <link>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</link>
-      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Meditações</title>
       <link>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</link>
-      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</guid>
       <description></description>
@@ -625,11 +625,29 @@
     </item>
     
     <item>
+      <title>alma</title>
+      <link>https://lucianakeiko.github.io/tags/alma/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/alma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>corpo</title>
       <link>https://lucianakeiko.github.io/tags/corpo/</link>
-      <pubDate>Tue, 13 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/corpo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>superação</title>
+      <link>https://lucianakeiko.github.io/tags/supera%C3%A7%C3%A3o/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/supera%C3%A7%C3%A3o/</guid>
       <description></description>
     </item>
     
