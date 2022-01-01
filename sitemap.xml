@@ -3,30 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lucianakeiko.github.io/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/categories/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lucianakeiko.github.io/tags/consci%C3%AAncia/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/categories/core-self/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lucianakeiko.github.io/post/2021-12-30-livro-2-teco-17/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <loc>https://lucianakeiko.github.io/post/2022-01-01-livro-3-teco-1/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/post/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/categories/super-amigos/</loc>
-    <lastmod>2021-12-30T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/tags/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lucianakeiko.github.io/tags/tempo/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lucianakeiko.github.io/post/2021-12-30-livro-2-teco-17/</loc>
     <lastmod>2021-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/post/2021-12-28-livro-2-teco-16/</loc>
@@ -144,9 +153,6 @@
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/tags/objetivo/</loc>
-    <lastmod>2021-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lucianakeiko.github.io/tags/tempo/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/post/2021-11-29-cogitationes/</loc>
@@ -884,7 +890,19 @@
     <loc>https://lucianakeiko.github.io/post/2021-07-16-carta-17/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://lucianakeiko.github.io/tags/filosofia/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lucianakeiko.github.io/categories/loading/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lucianakeiko.github.io/tags/perfei%C3%A7%C3%A3o/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lucianakeiko.github.io/tags/pobreza/</loc>
+    <lastmod>2021-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lucianakeiko.github.io/tags/riqueza/</loc>
     <lastmod>2021-07-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/economode/2021-07-16-valuation-test/</loc>
@@ -915,9 +933,6 @@
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/post/2021-07-13-carta-14/</loc>
-    <lastmod>2021-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lucianakeiko.github.io/tags/riqueza/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lucianakeiko.github.io/post/2021-07-12-carta-13/</loc>
