@@ -7,15 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Coragem</title>
+      <link>https://lucianakeiko.github.io/tags/coragem/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/coragem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inteligência</title>
+      <link>https://lucianakeiko.github.io/tags/intelig%C3%AAncia/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/intelig%C3%AAncia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>justiça</title>
+      <link>https://lucianakeiko.github.io/tags/justi%C3%A7a/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/justi%C3%A7a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Marco Aurélio</title>
       <link>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</link>
-      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</guid>
       <description></description>
@@ -24,9 +51,27 @@
     <item>
       <title>Meditações</title>
       <link>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</link>
-      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>temperança</title>
+      <link>https://lucianakeiko.github.io/tags/temperan%C3%A7a/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/temperan%C3%A7a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verdade</title>
+      <link>https://lucianakeiko.github.io/tags/verdade/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/verdade/</guid>
       <description></description>
     </item>
     
@@ -391,15 +436,6 @@
     </item>
     
     <item>
-      <title>Coragem</title>
-      <link>https://lucianakeiko.github.io/tags/coragem/</link>
-      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/coragem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Epicuro</title>
       <link>https://lucianakeiko.github.io/tags/epicuro/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
@@ -634,7 +670,7 @@
     </item>
     
     <item>
-      <title>Vida</title>
+      <title>vida</title>
       <link>https://lucianakeiko.github.io/tags/vida/</link>
       <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
       
@@ -774,6 +810,33 @@
       <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/lacan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ocupações ilusórias</title>
+      <link>https://lucianakeiko.github.io/tags/ocupa%C3%A7%C3%B5es-ilus%C3%B3rias/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/ocupa%C3%A7%C3%B5es-ilus%C3%B3rias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>politica</title>
+      <link>https://lucianakeiko.github.io/tags/politica/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/politica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trabalho</title>
+      <link>https://lucianakeiko.github.io/tags/trabalho/</link>
+      <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/trabalho/</guid>
       <description></description>
     </item>
     
@@ -963,15 +1026,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/p%C3%A2nico/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Verdade</title>
-      <link>https://lucianakeiko.github.io/tags/verdade/</link>
-      <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/verdade/</guid>
       <description></description>
     </item>
     
