@@ -19,7 +19,7 @@ Idioma: português de Portugal
 :link:[na amazon](https://amzn.to/3rylSoL)
 
 ### :books: LIVRO I  ( Cartas 1 a 12 )
-:book:  [Carta 1]({{< ref "/post/2021-06-30-carta-1" >}} "Carta 1 - Só o tempo é mesmo nosso") - Só o tempo é mesmo nosso  
+:book:  [Carta 1]({{< ref "/cartas/carta-1" >}} "Carta 1 - Só o tempo é mesmo nosso") - Só o tempo é mesmo nosso  
 
 :book:  [Carta 2]({{< ref "/post/2021-07-01-carta-2" >}} "Carta 2 - Estar em todo o lado é o mesmo que não estar em parte alguma!") - Estar em todo o lado é o mesmo que não estar em parte alguma!  
 
@@ -88,7 +88,7 @@ Idioma: português de Portugal
 :book: [Carta 22]({{< ref "/post/2021-07-21-carta-22" >}} "Carta 22 - Ninguém se preocupa em viver bem, mas sim em durar muito
 ") - Ninguém se preocupa em viver bem, mas sim em durar muito
 
-:book: [Carta 23]({{< ref "/post/2021-07-22-carta-23" >}} "Carta 23 - A verdadeira alegria é uma coisa muito séria
+:book: [Carta 23]({{< ref "/cartas/carta-23" >}} "Carta 23 - A verdadeira alegria é uma coisa muito séria
 ") - A verdadeira alegria é uma coisa muito séria
 
 :book: [Carta 24]({{< ref "/post/2021-07-23-carta-24" >}} "Carta 24 - O que nós temos a fazer é tirar a máscara, não só às pessoas, como às coisas

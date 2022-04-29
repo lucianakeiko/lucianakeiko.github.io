@@ -9,24 +9,32 @@ categories:
 tags:
   - Seneca
   - Epicuro
+  - ostentação
+  - riqueza
+  - pobreza
+  - invencibilidade
+  
 description: 'Não importa se um fogo é grande, mas sim em que matéria ele pega'
+toc: true
 ---
 
-# Carta 18 
+## Carta 18 
 
-Estamos em Dezembro: **a cidade está coberta de suor!** A ostentação desregrada invadiu toda a vida coletiva. Fazem-se estrepitosamente enormes preparativos, como se existisse alguma diferença entre o período das Saturnais e os dias úteis. O fato é que **não há qualquer diferença**, e por isso mesmo acho que tem toda a razão quem afirma que se Dezembro em tempos foi um mês, agora é um ano inteiro! <sub>(1)</sub>
+Estamos em Dezembro: **a cidade está coberta de suor!** 
+
+A ostentação desregrada invadiu toda a vida coletiva. Fazem-se estrepitosamente enormes preparativos, como se existisse alguma diferença entre o período das Saturnais e os dias úteis. O fato é que **não há qualquer diferença**, e por isso mesmo acho que tem toda a razão quem afirma que se Dezembro em tempos foi um mês, agora é um ano inteiro! <sub>(1)</sub>
 
 Se estivesses aqui ao pé, de boa vontade trocaria impressões contigo sobre qual te parece a **atitude a adaptar**: ou não alterar em nada os nossos hábitos quotidianos, ou então, para nos não julgarem contrários aos costumes da maioria, darmos **algo de animação** ao jantar e abstermo-nos de usar a toga. 
 
 Na realidade, enquanto antigamente "mudávamos de roupa" em situações de grande agitação e de calamidades públicas, agora **fazêmo-lo em atenção aos prazeres e aos dias de festa!** <sub>(2)</sub> Se bem te conheço, no caso de teres de atuar como árbitro, não consentirias que fôssemos **nem totalmente semelhantes nem totalmente diferentes** da multidão de barrete frígio. <sub>(3)</sub>
 
-**A menos** que consideremos dever **ser sobretudo exigentes** com a nossa alma em dias festivos, e sermos os únicos a renunciar aos prazeres numa ocasião em que toda a gente se lhes entrega. Será de fato **uma prova segura de firmeza de ânimo** não acompanhar, não se deixar guiar por um ambiente aliciador de concessões à volúpia.
+**A menos** que consideremos dever **ser sobretudo exigentes** com a nossa alma em dias festivos, e **sermos os únicos a renunciar aos prazeres numa ocasião em que toda a gente se lhes entrega**.Será de fato uma prova segura de firmeza de ânimo não acompanhar, não se deixar guiar por um ambiente aliciador de concessões à volúpia.
 
 Se é indício de maior constância mantermo-nos inteiramente sóbrios em meio de uma multidão ébria a ponto de vomitar, **será mais moderada a nossa atitude se nos não situarmos à margem**, não nos tornando notados nem nos deixando absorver na turba, isto é, se fizermos a mesma coisa mas com **uma diferente disposição de espírito**. Afinal de contas, é possível participar numa festa sem cair no deboche!
 
 Tenho, aliás, tanta vontade de **pôr à prova a tua firmeza de alma** que, com base nos preceitos de filósofos ilustres, forjaria este outro preceito destinado à tua pessoa: fixa alguns dias intercalados nos quais mates a fome com alimentos exíguos e vulgares, e te vistas com roupa o mais possível grosseira, de modo a comentares para ti próprio: **"era então disto que eu tinha medo?"** 
 
-A alma deve preparar-se para as dificuldades durante os períodos de tranquilidade, deve-se **fortalecer contra as injúrias da fortuna** nos períodos em que ela nos sorri. Os soldados fazem manobras em tempos de paz, constroem paliçadas mesmo sem haver inimigos, **treinam-se através de esforços supérfluos** para serem **capazes de afrontar as necessidades reais**.
+A alma deve **preparar-se para as dificuldades durante os períodos de tranquilidade**, deve-se **fortalecer contra as injúrias da fortuna** nos períodos em que ela nos sorri. Os soldados fazem manobras em tempos de paz, constroem paliçadas mesmo sem haver inimigos, **treinam-se através de esforços supérfluos** para serem **capazes de afrontar as necessidades reais**.
 
 Se não queres que um homem entre em pânico perante uma situação concreta, **treina-o antes que tal situação ocorra**. Este princípio foi posto em prática por aqueles que todos os meses imitavam uma situação de pobreza a tal ponto que atingiram quase a miséria extrema, na intenção de **nunca terem de recear o que de uma vez por todas aprendessem a suportar**. 
 
@@ -70,10 +78,22 @@ Passar bem!
 
 <sub>(4)</sub> É, naturalmente, impossível tentar uma equivalência entre as moedas romanas e valores atuais. De qualquer modo "dois asses" é uma importância ridícula, tal como nós poderíamos dizer "dois tostões".
 
-
-:book: [Cartas a Lucílio](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+## Versão Papel :book:
 
 ISBN-13: 9789723105360 / ISBN-10: 9723105365  
 Ano: 2009 / Páginas: 713  
 Idioma: português de Portugal   
 **Editora:** Fundação Calouste Gulbenkian
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=mundodekeika-20&marketplace=amazon&amp;region=BR&placement=9723105365&asins=9723105365&linkId=fb8dc16224bc0c2b7943ec769c5b5905&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+
+## No Skoob :eagle:
+
+:book: [Cartas a Lucílio - 4 edição](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+
+## Índice das Cartas
+
+Índice das 124 cartas publicadas : [📚 Cartas a Lucílio]({{< ref "/Cartas-a-Lucilio" >}})

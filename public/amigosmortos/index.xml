@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AmigosMortos on Homo Somnium</title>
+    <link>https://lucianakeiko.github.io/amigosmortos/</link>
+    <description>Recent content in AmigosMortos on Homo Somnium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 1982–2021</copyright>
+    <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lucianakeiko.github.io/amigosmortos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gottfried Wilhelm Leibniz</title>
+      <link>https://lucianakeiko.github.io/amigosmortos/gottfried-wilhelm-leibniz/</link>
+      <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/amigosmortos/gottfried-wilhelm-leibniz/</guid>
+      <description>&lt;h2 id=&#34;gottfried-wilhelm-leibniz&#34;&gt;Gottfried Wilhelm Leibniz&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg/486px-Gottfried_Wilhelm_Leibniz%2C_Bernhard_Christoph_Francke.jpg&#34; alt=&#34;Leibniz&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

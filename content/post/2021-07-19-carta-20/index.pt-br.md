@@ -9,11 +9,14 @@ categories:
 tags:
   - Seneca
 description: 'Quando virá o dia em que ninguém te mentirá para te ser agradável?!'
+toc: true
 ---
 
-# Carta 20
+## Carta 20
 
-Se estás bem de saúde, se te consideras digno de seres um dia senhor de ti mesmo, fico contente. Será minha a glória, se porventura te subtrair a esse mar de incertezas onde erras, sem esperança, à deriva. Há, porém, uma coisa que te peço, meu caro Lucílio, com todo o empenho: **interioriza a filosofia no mais íntimo de ti mesmo** e fundamenta a avaliação do teu progresso não em palavras que digas ou escrevas, mas sim **na tua firmeza de ânimo** e na diminuição dos teus desejos; **comprova as palavra com os atos** ! 
+Se estás bem de saúde, se te consideras digno de seres **um dia senhor de ti mesmo**, fico contente. 
+
+Será minha a glória, se porventura te subtrair a esse mar de incertezas onde erras, sem esperança, à deriva. Há, porém, uma coisa que te peço, meu caro Lucílio, com todo o empenho: **interioriza a filosofia no mais íntimo de ti mesmo** e fundamenta a avaliação do teu progresso não em palavras que digas ou escrevas, mas sim **na tua firmeza de ânimo** e na diminuição dos teus desejos; **comprova as palavra com os atos** ! 
 
 Diferente é o propósito dos declamadores que **pretendem ganhar o aplauso da assistência**, diferente é também o dos conferencistas que atraem a atenção dos jovens e dos ociosos pela variedade dos temas ou pela elegância da exposição; a filosofia, essa, ensina **a agir**, não a falar, exige de cada qual que **viva segundo as suas leis**, de modo que a vida não contradiga as palavras, nem sequer se contradiga a si mesma; **importa que todas as nossas ações sejam do mesmo teor**. 
 
@@ -56,9 +59,22 @@ Há que despertar do sono a nossa alma, há que espicaçá-la, há que mostrar-l
 
 Passar bem!
 
-:book: [Cartas a Lucílio](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+## Versão Papel :book:
 
 ISBN-13: 9789723105360 / ISBN-10: 9723105365  
 Ano: 2009 / Páginas: 713  
 Idioma: português de Portugal   
 **Editora:** Fundação Calouste Gulbenkian
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=mundodekeika-20&marketplace=amazon&amp;region=BR&placement=9723105365&asins=9723105365&linkId=fb8dc16224bc0c2b7943ec769c5b5905&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+
+## No Skoob :eagle:
+
+:book: [Cartas a Lucílio - 4 edição](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+
+## Índice das Cartas
+
+Índice das 124 cartas publicadas : [📚 Cartas a Lucílio]({{< ref "/Cartas-a-Lucilio" >}})

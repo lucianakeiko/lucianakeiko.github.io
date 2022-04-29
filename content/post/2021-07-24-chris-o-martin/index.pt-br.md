@@ -10,6 +10,13 @@ description: ''
 toc: true
 ---
 
+
+## Music of The Spheres 
+# Live from Climate Pladge Arena (Full Concert)
+
+{{< youtube e42x6z1I9t4 >}}
+
+
 ## Music of The Spheres 
 # Coldplay - **Coloratura** (Official Lyric Video)
 {{< youtube kWUV5-frRU4 >}}
@@ -18,7 +25,7 @@ toc: true
 # Coldplay - **Overtura** (Music Of The Spheres album trailer)
 {{< youtube lQenG42hyE8 >}}
 
-# Colplay - Fix You (Tradução) 
+# Coldplay - Fix You (Tradução) 
 
 "O tanto que essa música é linda é o tanto que ela dói por dentro"
 

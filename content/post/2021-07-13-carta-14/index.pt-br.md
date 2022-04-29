@@ -9,39 +9,53 @@ categories:
 tags:
   - Seneca
   - Epicuro
+  - liberdade
+  - riqueza
+  - corpo
 description: 'Se o início depende de nós, o resultado depende da fortuna'
+toc: true
 ---
 
-# Carta 14
+## Carta 14
 
 
-Admito que é inata em nós a estima pelo próprio corpo, admito que temos o dever de cuidar dele. Não nego que devamos dar-he atenção, mas nego que devamos ser seus escravos. **Será escravo de muitos quem for escravo do próprio corpo**, quem temer por ele em demasia, quem tudo fizer em função dele. 
+Admito que é inata em nós a estima pelo próprio corpo, admito que temos o dever de cuidar dele. Não nego que devamos dar-he atenção, mas nego que devamos ser seus escravos. <mark>Será escravo de muitos quem for escravo do próprio corpo</mark>, quem temer por ele em demasia, quem tudo fizer em função dele. 
 
-Devemos proceder não como quem vive no interesse do corpo mas simplesmente como **quem não pode viver sem ele**. Um excessivo interesse pelo corpo inquieta-nos com temoes, carrega-nos de apreensões, expõe-nos aos insultos; o bem moral torna-se desprezível para aqueles que amam em excesso o corpo. 
+Devemos proceder não como quem vive no interesse do corpo mas simplesmente como **quem não pode viver sem ele**. Um excessivo interesse pelo corpo inquieta-nos com **temores**, carrega-nos de **apreensões**, expõe-nos aos insultos; <mark>o bem moral torna-se desprezível para aqueles que amam em excesso o corpo</mark>. 
 
-Tenhamos com ele o maior cuidado, mas **na disposição de o atirar às chamas quando a razão, a dignidade, a lealdade assim o exigirem**. De qualquer modo evitemos quanto possível mesmo os incômodos, e não somente os perigos, coloquemo-nos em lugar seguro mas reflectindo desde logo nos meios como afastar os motivos de temor. 
+Tenhamos com ele o maior cuidado, mas **na disposição de o atirar às chamas quando a razão, a dignidade, a lealdade assim o exigirem**. De qualquer modo evitemos quanto possível mesmo os incômodos, e não somente os perigos, coloquemo-nos em lugar seguro mas refletindo desde logo nos meios como <mark>afastar os motivos de temor</mark>. 
 
-Tais motivos, se bem me lembro, são de **três tipos**: podemos temer **a indigência**, ou **as doenças**, ou **as violências perpetradas pelos poderosos**. De todos eles nada nos abala mais do que os males ocasionados pela prepotência alheia, já que ocorrem acompanhados de imenso estrépito e agitação. 
+Tais motivos, se bem me lembro, são de **três tipos**: podemos temer **a indigência**, ou **as doenças**, ou **as violências perpetradas pelos poderosos**. De todos eles nada nos abala mais do que os males ocasionados pela prepotência alheia, já que ocorrem acompanhados de imenso estrépito<sub>ruído intenso</sub> e agitação. 
 
-As calamidades naturais que referi, indigência e doença, surgem silenciosamente e não incutem terror através da vista ou do ouvido; **o terceiro tipo** de desgraça ocorre entre grande alarido, faz a sua aparição entre armas, chamas, cadeias e bandos de feras treinadas para rasgar aos homens as entranhas. Imagina, neste momento, o cárcere, as cruzes, os cavaletes, os ganchos <sub>(1)</sub> , o pau que atravessa todo o corpo e acaba por sair pela boca, os carros lançados em direções opostas que despedaçam os membros, a célebre túnica revestida e entretecida de matérias inflamáveis e **tudo o mais que a crueldade foi ainda capaz de inventar**.
+As **calamidades naturais** que referi, **indigência** e **doença**, surgem silenciosamente e **não incutem terror** através da vista ou do ouvido; **o terceiro tipo** de desgraça ocorre entre grande alarido, faz a sua aparição entre armas, chamas, cadeias e bandos de feras treinadas para rasgar aos homens as entranhas. Imagina, neste momento, o cárcere, as cruzes, os cavaletes, os ganchos <sub>(1)</sub> , o pau que atravessa todo o corpo e acaba por sair pela boca, os carros lançados em direções opostas que despedaçam os membros, a célebre túnica revestida e entretecida de matérias inflamáveis e **tudo o mais que a crueldade foi ainda capaz de inventar**.
 
 Não é, portanto, de admirar se o perigo que mais receio inspira é este, que se apresenta sob tanta variedade de formas e rodeado de aparato terrível. Tal qual como a tortura é tanto mais eficaz quanto mais instrumentos dolorosos exibir (e assim vence pela vista homens que resistiriam ao sofrimento), também daqueles receios que nos fligem e abatem o ânimo, **os mais eficazes são aqueles que se fazem ver**. 
 
 Há outras calamidades não menos graves - por exemplo a fome, a sede, as úlceras, a febre que parece queimar as entranhas - , mas que se não vêm, que **não chamam a atenção, que se não exibem**; aquelas outras, ao contrário, são como as guerras violentas, que **nos vencem pelo seu aparato visível**.
 
-Tomemos, por isso, precauções para evitarmos ser ofensivos. Por vezes é de todo o povo que nos devemos precaver; outras vezes, quando o governo da cidade passa na sua maior parte pelo senado, são os seus membros que importa conciliar; outras, são homens que, a título pessoal, **receberam do povo o poder que exercem contra o próprio povo**. 
+Tomemos, por isso, precauções para evitarmos ser ofensivos. 
 
-Tê-los a todos como amigos seria ingente tarefa; basta que os não tenhamos por inimigos. O sábio, consequentemente, **não provocará as iras dos poderosos**, antes as esquivará, tal como no mar procuramos esquivar as tempestades. 
+<mark>Por vezes é de todo o povo que nos devemos precaver</mark>; outras vezes, quando o governo da cidade passa na sua maior parte pelo senado, são os seus membros que importa conciliar; outras, são homens que, a título pessoal, **receberam do povo o poder que exercem contra o próprio povo**. 
 
-Quando foste à **Sicília** tiveste de atravessar o mar. Se o piloto é temerário não cuida dos perigos do austro<sub>(2)</sub>, o vento que agita o mar da Sicília e provoca os remoínhos, nem se aproxima da margem à sua esquerda, antes navega por entre os turbilhões causados por Caríbdis. Um outro mais prudente inquere dos conhecedores do local o sentido das correntes ou os indícios a tirar das nuvens, e **dirigirá a sua rota longe daquelas paragens** tão tristemente famosas pelos seus vórtices. 
+Tê-los a todos como amigos seria ingente tarefa; basta que os não tenhamos por inimigos. 
 
-Idêntico **método** usará o sábio: **evita a perniciosa companhia dos poderosos** mas tomando cautela para não aparentar evitá-la; em grande parte a segurança reside em não a buscar;nós de forma demasiado evidente, pois **fugir de alguma coisa é o mesmo que condená-la**. 
+**O sábio**, consequentemente, <mark>não provocará as iras dos poderosos</mark>, antes as esquivará, tal como no mar procuramos esquivar as tempestades. 
 
-Há, por conseguinte, que tomar todos os cuidados para nos precavermos do vulgo. Para começar, **não devemos ter ambições: competição gera conflito!** Em segundo lugar não devemos possuir nada capaz de ser aliciante para um eventual salteador: não ostentes quanto possível sobre ti o que possa ser tomado como espólio! Ninguém chega a matar o seu semelhante por puro prazer de matar, ou, pelo menos, muito poucos; mais numerosos são **os que o fazem por cálculo do que por ódio**. Qualquer ladrão deixa em paz quem nada tem; mesmo numa estrada infestada o pobre nada tem a temer.
+Quando foste à **Sicília** tiveste de atravessar o mar. Se o piloto é temerário não cuida dos perigos do austro<sub>(2)</sub>, o vento que agita o mar da Sicília e provoca os remoínhos, nem se aproxima da margem à sua esquerda, antes navega por entre os turbilhões causados por Caríbdis. 
+
+Um outro mais prudente inquere dos conhecedores do local o sentido das correntes ou os indícios a tirar das nuvens, e **dirigirá a sua rota longe daquelas paragens** tão tristemente famosas pelos seus vórtices. 
+
+Idêntico **método** usará o sábio: **evita a perniciosa companhia dos poderosos** mas tomando cautela para não aparentar evitá-la; em grande parte a segurança reside em não a buscar;nós de forma demasiado evidente, pois<mark>fugir de alguma coisa é o mesmo que condená-la</mark>. 
+
+Há, por conseguinte, que tomar todos os cuidados para nos precavermos do vulgo. Para começar, **não devemos ter ambições: competição gera conflito!** Em segundo lugar não devemos possuir nada capaz de ser aliciante para um eventual salteador: não ostentes quanto possível sobre ti o que possa ser tomado como espólio! 
+
+Ninguém chega a matar o seu semelhante por puro prazer de matar, ou, pelo menos, muito poucos; mais numerosos são **os que o fazem por cálculo do que por ódio**. Qualquer ladrão deixa em paz quem nada tem; mesmo numa estrada infestada o pobre nada tem a temer.
 
 Há seguidamente três coisas que, segundo o velho provérbio, se devem evitar: **o ódio, a inveja, o desprezo**. O como de consegui-lo, só a sabedoria pode indicá-lo. É, na verdade, **difícil conseguir o equilíbrio**, e por isso importa ter cuidado, não vá o medo da inveja fazer-nos incorrer no desprezo ou **o receio de pisar os outros parecer significar que os outros nos possam pisar**. 
 
-O poder de inspirar temor tem sido para muitos causa de temor! Retiremo-nos com precaução de todas as frentes: tão perigoso é ser desprezado como inspirar suspeitas. A solução é **procurar refúgio na filosofia**, arte pacífica e **concentrada sobre si mesmo**, não pode incorrer no desprezo, ela que, mesmo entre gente inculta, leva a palma a todas as outras artes.
+O poder de inspirar temor tem sido para muitos causa de temor! Retiremo-nos com precaução de todas as frentes: tão perigoso é ser desprezado como inspirar suspeitas.
+
+:point_right: <mark> A solução é procurar refúgio na filosofia </mark>, arte pacífica e **concentrada sobre si mesmo**, não pode incorrer no desprezo, ela que, mesmo entre gente inculta, leva a palma a todas as outras artes.
 
 Nunca a perversidade ganhará tanta força, nunca se encarniçará tanto contra a virtude, que o nome da filosofia não permaneça como algo venerável e sagrado. De resto, só com **tranquilidade** e **modéstia** se pode praticar a filosofia.
 
@@ -64,12 +78,12 @@ O sábio **não deve perturbar os costumes do vulgo** nem levar uma vida estranh
 
 Não te posso garantir isso, tal como não te posso garantir que uma vida regrada implique necessariamente uma excelente saúde. Por vezes um navio pode afundar-se no porto: mas o que pensas tu não lhe sucederia no mar alto? A quantos perigos não ficaria mais exposto um homem de múltiplas atividades e empreendimentos **se o próprio ócio não garante a segurança?** Ocasionalmente são vitimados inocentes (quem o nega?), mas **é mais frequente que o sejam culpados**.
 
-Um esgrimista é atingido sob a armadura: tal não diminui a sua habilidade. Álém disso o sábio pode **responsabilizar-se pelas suas decisões, não pelo sucesso das mesmas**. Se **o início depende de nós**, **o resultado depende da fortuna**, sem que por isso eu lhe confira direitos a julgar-me. "Mas assim poderás sofrer vexames, ou graves contrariedades." 
+Um esgrimista é atingido sob a armadura: tal não diminui a sua habilidade. Álém disso <mark> o sábio pode **responsabilizar-se pelas suas decisões, não pelo sucesso das mesmas</mark>. Se o início depende de nós**, **o resultado depende da fortuna**, sem que por isso eu lhe confira direitos a julgar-me. "Mas assim poderás sofrer vexames, ou graves contrariedades." 
 Um salteador pode matar-me; condenar-me, isso não! 
 
 Neste mómento estendes a mão para receber o tributo diário. Vou **encher-te as mãos de ouro** e já que falei em ouro aprende a maneira de tirares dele o mais completo proveito.
 
-> "Aquele que melhor goza da riqueza é o que menos necessita da riqueza." 
+> :point_right: <mark> "Aquele que melhor goza da riqueza é o que menos necessita da riqueza." </mark>
 
 "Qual o autor?" - perguntas. Para veres até que ponto sou tolerante decidi citar-te autores alheios: a frase é de [Epicuro](https://pt.wikipedia.org/wiki/Epicuro), ou de [Metrodoro](https://pt.wikipedia.org/wiki/Metrodoro_de_Qu%C3%ADos), ou de algum outro pensador lá dessa seita. Mas que interesse tem o nome do autor se **ele falou para benefício de todos?** 
 
@@ -77,16 +91,27 @@ Quem necessita de riqueza está em ânsias por ela; ora **ninguém goza um bem q
 
  
  Passar bem!
- 
-:book: [Cartas a Lucílio](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+<sub>(1)</sub> Os ganchos aqui referidos eram os que se usavam para arrastar os corpos dos supliciados até junto às Gemoniae scalae "as escadas dos gemidos", donde depois eram lançados ao Tibre.
+
+<sub>(2)</sub> Vento sul.
+
+## Versão Papel :book:
 
 ISBN-13: 9789723105360 / ISBN-10: 9723105365  
 Ano: 2009 / Páginas: 713  
 Idioma: português de Portugal   
 **Editora:** Fundação Calouste Gulbenkian
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=mundodekeika-20&marketplace=amazon&amp;region=BR&placement=9723105365&asins=9723105365&linkId=fb8dc16224bc0c2b7943ec769c5b5905&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
 
 
-<sub>(1)</sub> Os ganchos aqui referidos eram os que se usavam para arrastar os corpos dos supliciados até junto às Gemoniae scalae "as escadas dos gemidos", donde depois eram lançados ao Tibre.
+## No Skoob :eagle:
 
-<sub>(2)</sub> Vento sul.
+:book: [Cartas a Lucílio - 4 edição](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+
+## Índice das Cartas
+
+Índice das 124 cartas publicadas : [📚 Cartas a Lucílio]({{< ref "/Cartas-a-Lucilio" >}})

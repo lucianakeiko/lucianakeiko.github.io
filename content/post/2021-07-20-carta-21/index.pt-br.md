@@ -6,11 +6,16 @@ slug: []
 categories:
   - Super Amigos
   - CORE SELF
-tags: []
+tags:
+  - retorna 
+  - desejos
+  - eternidade
+  - genio
 description: 'Não aumentes o seu património, diminui antes os seus desejos'
+toc: true
 ---
 
-# Carta 21
+## Carta 21
 
 Pensas que te dão problemas essas pessoas de que falas na tua carta? **O maior problema vem de ti mesmo, tu é que te prejudicas a ti próprio**. Não estás certo do que pretendes, tens mais facilidade em louvar do que em praticar a virtude, e embora saibas onde reside a felicidade **não ousas aproximar-te dela**. 
 
@@ -50,9 +55,22 @@ Passar Bem!
 
 <sub>(1)</sub>Talvez este termo seja uma monstruosidade linguística, mas exprime a relação de parentesco a que Séneca alude: Tibério foi casado com uma neta de Ático, logo era seu .. genro-neto". Aliás, a formação do nome em latim é absolutamente lógica: progener (genro-neto) está para gener (genro) tal como pronepos (bisneto) está para nepos (neto). E, de resto, em português também há expressões como sobrinho-neto! Por que não também genro-neto?
 
-:book: [Cartas a Lucílio](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+## Versão Papel :book:
 
 ISBN-13: 9789723105360 / ISBN-10: 9723105365  
 Ano: 2009 / Páginas: 713  
 Idioma: português de Portugal   
 **Editora:** Fundação Calouste Gulbenkian
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=mundodekeika-20&marketplace=amazon&amp;region=BR&placement=9723105365&asins=9723105365&linkId=fb8dc16224bc0c2b7943ec769c5b5905&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+
+## No Skoob :eagle:
+
+:book: [Cartas a Lucílio - 4 edição](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+
+## Índice das Cartas
+
+Índice das 124 cartas publicadas : [📚 Cartas a Lucílio]({{< ref "/Cartas-a-Lucilio" >}})

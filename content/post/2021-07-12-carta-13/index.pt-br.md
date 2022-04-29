@@ -12,21 +12,25 @@ tags:
   - Catão
   - Pânico
   - Coragem
+  - Antifrágil
+  - Medo
 description: 'Só aquele que se ergue com mais energia de cada vez que é derrubado pode descer à arena com esperança de vencer.'
-
+toc: true
 ---
 
-# Carta 13 - LIVRO II
+## Carta 13 - LIVRO II
 
 Sei que tens muita força de ânimo. Mesmo antes de começares a aprender os nossos preceitos, tão salutares e tão capazes de **nos fazerem afrontar vitoriosamente as situações mais duras**, já te comprazias em fazer face à fortuna. 
 
 Muito mais animoso estás agora depois que iniciaste com ela a luta corpo a corpo e **experimentaste as tuas próprias forças**; na realidade, apenas podemos confiar na nossa força quando aqui e ali deparamos com várias dificuldades, sobretudo quando uma vez por outra nos atingem muito de perto.
 
-É assim que se vê até onde chega a verdadeira coragem, aquela que **nunca abdicará do seu livre arbítrio**; tal situação é a verdadeira pedra de toque do nosso ânimo.
+É assim que se vê até onde chega a verdadeira coragem, aquela que <mark>nunca abdicará do seu livre arbítrio</mark>; tal situação é a verdadeira pedra de toque do nosso ânimo.
 
  Um atleta que nunca foi ferido é incapaz de afrontar o combate de ânimo alto. Só aquele que viu correr o próprio sangue, que sentiu os dentes rangerem sob os golpes, que, lançado por terra, suportou sobre o corpo o peso do adversário sem, embora abatido, nunca deixar abater o ânimo, **só aquele que se ergue com mais energia de cada vez que é derrubado pode descer à arena com esperança de vencer**. 
 
-Prosseguindo com este símile, direi que já várias vezes a fortuna te deitou ao chão sem que te confessasses vencido; pelo contrário, **ergueste-te de novo e retomaste a luta com energia dobrada**. A virtude autêntica ganha novas forças de cada vez que sofre um golpe.
+Prosseguindo com este símile, direi que já várias vezes a fortuna te deitou ao chão sem que te confessasses vencido; pelo contrário, **ergueste-te de novo e retomaste a luta com energia dobrada**. 
+
+:point_right: <mark> A virtude autêntica ganha novas forças de cada vez que sofre um golpe.<mark>
 
 Se estás de acordo, contudo, dar-te-ei conselhos que te ajudarão a reforçar o teu vigor. Mais numerosos são, Lucílio, os nossos temores que as nossas verdadeiras aflições; e **mais frequentemente nos angustia a nossa imaginação do que a realidade**. Não te estou falando em linguagem de estóico, mas sim em linguagem menos rigorosa.
 
@@ -73,7 +77,7 @@ Se o não conseguires, então **combate um vício com outro vício**, e contraba
 
 Pondera, portanto, os motivos de esperança e de medo, e sempre que as coisas te apareçam todas como ambíguas, **age pelo melhor e acredita no que preferires**. Ainda que o medo disponha de mais argumentos, mesmo assim toma de preferência este partido: não te deixes perturbar, pensa imediatamente que a maior parte dos homens, sem que qualquer mal os aflija nem os venha a atingir como coisa inevitável, **se deixam ir à deriva guiados pelas suas paixões**. 
 
-Ninguém resiste ao próprio impulso que tomou, **ninguém sabe adequar o seu medo à realidade**. Ninguém sabe dizer que o medo é mau conselheiro, que gera falsas ideias, ou acredita nelas. Deixamo-nos guiar ao sabor do vento; receamos o ambíguo como se fosse indiscutível; não agimos com conta, peso e medida, uma simples inquietação logo se transforma em terror!
+Ninguém resiste ao próprio impulso que tomou, <mark>ninguém sabe adequar o seu medo à realidade</mark>. Ninguém sabe dizer que o medo é mau conselheiro, que gera falsas ideias, ou acredita nelas. Deixamo-nos guiar ao sabor do vento; receamos o ambíguo como se fosse indiscutível; não agimos com conta, peso e medida, uma simples inquietação logo se transforma em terror!
 
 Até sinto vergonha de usar contigo esta linguagem e de te confortar com conselhos tão banais. Um homem vulgar dirá: **"Talvez este mal não ocorra!"** Tu, porém, deves dizer:
 
@@ -96,9 +100,22 @@ Não acrescentaria o nome do autor desta frase se não se desse o fato de **ela 
  
  Passar bem!
  
-:book: [Cartas a Lucílio](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+## Versão Papel :book:
 
 ISBN-13: 9789723105360 / ISBN-10: 9723105365  
 Ano: 2009 / Páginas: 713  
 Idioma: português de Portugal   
 **Editora:** Fundação Calouste Gulbenkian
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=mundodekeika-20&marketplace=amazon&amp;region=BR&placement=9723105365&asins=9723105365&linkId=fb8dc16224bc0c2b7943ec769c5b5905&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+
+## No Skoob :eagle:
+
+:book: [Cartas a Lucílio - 4 edição](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+
+## Índice das Cartas
+
+Índice das 124 cartas publicadas : [📚 Cartas a Lucílio]({{< ref "/Cartas-a-Lucilio" >}})

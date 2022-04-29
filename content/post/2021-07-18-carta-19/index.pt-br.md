@@ -8,9 +8,13 @@ categories:
   - CORE SELF
 tags:
   - Seneca
+  - esperança
+  - ocio
+  - ambições
 description: 'É muito mais importante a pessoa do beneficiário do que o montante do benefício!'
+toc: true
 ---
-# Carta 19 
+## Carta 19 
 
 Fico sempre muito alegre quando recebo cartas tuas. Elas **enchem-me de esperança** e mais do que promessas já me trazem certezas a teu respeito. Continua assim, é o que te peço com toda a insistência! E que coisa melhor eu poderia pedir para um amigo **senão aquilo que lhe peço para seu próprio benefício?** Se isso te for possível vai-te subtraindo a essas tuas ocupações; se não, corta com elas de vez! Já perdemos tempo demasiado; comecemos, atingida a velhice, **a preparar a nossa bagagem!** 
 
@@ -20,7 +24,9 @@ Deixa que os outros, aqueles que **ainda não tomaram uma decisão a esse respei
 
 Não poderás viver no meio das trevas: muito do teu esplendor antigo te seguirá para onde quer que fujas! Poderás, contudo, reivindicar uma vida retirada sem concitares o ódio de ninguém e sem que a tua alma sinta saudades ou remorsos. Afinal, **o que abandonarás tu de que possas lembrar-te com desgosto?** Os clientes? Nenhum te procurava a ti mas a algo que tu possuías ! 
 
-Os clientes de outro tempo buscavam a amizade, hoje só buscam o proveito! Basta que o velho patrono, sentindo-se iludido, altere o testamento, e a saudação matinal irá ser feita a outra porta. **Uma coisa valiosa não pode comprar-se por pouco**: considera, portanto, se preferes desistir de ti mesmo ou apenas de parte do que tu eras! Era bom que pudesses envelhecer dentro dos limites modestos do teu nascimento, era bom que a fortuna não te tivesse elevado a tal ponto! 
+Os clientes de outro tempo buscavam a amizade, **hoje só buscam o proveito!**  Basta que o velho patrono, sentindo-se iludido, altere o testamento, e a saudação matinal irá ser feita a outra porta. 
+
+**Uma coisa valiosa não pode comprar-se por pouco**: considera, portanto, se preferes desistir de ti mesmo ou apenas de parte do que tu eras! Era bom que pudesses envelhecer dentro dos limites modestos do teu nascimento, era bom que a fortuna não te tivesse elevado a tal ponto! 
 
 Uma rápida e bem sucedida carreira apartou-te para longe das perspectivas de uma vida salutar: uma província a administrar, um cargo de procurador, as novas missões que logicamente seriam de esperar! Cargos ainda mais importantes estarão à tua espera, e depois outros ainda. **Até quando? Porquê esperar até não haver mais postos que desejes ocupar?** Tal momento nunca chegará! 
 
@@ -63,11 +69,22 @@ Passar bem!
 
 <sub>(1)</sub> O **"ócio"** em sentido romano significa o abandono das ocupações públicas, especialmente da participação na vida política, e não deve em caso algum confundir-se com "ociosidade". Cf. livro I, nota 13.
 
-
-
-:book: [Cartas a Lucílio](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+## Versão Papel :book:
 
 ISBN-13: 9789723105360 / ISBN-10: 9723105365  
 Ano: 2009 / Páginas: 713  
 Idioma: português de Portugal   
 **Editora:** Fundação Calouste Gulbenkian
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=mundodekeika-20&marketplace=amazon&amp;region=BR&placement=9723105365&asins=9723105365&linkId=fb8dc16224bc0c2b7943ec769c5b5905&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+
+## No Skoob :eagle:
+
+:book: [Cartas a Lucílio - 4 edição](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+
+## Índice das Cartas
+
+Índice das 124 cartas publicadas : [📚 Cartas a Lucílio]({{< ref "/Cartas-a-Lucilio" >}})
