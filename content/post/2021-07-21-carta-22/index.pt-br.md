@@ -8,14 +8,20 @@ categories:
   - CORE SELF
 tags:
   - Seneca
+  - trabalho
+  - ocupações ilusórias
+  - politica
+  - vida
+  - morte
 description: 'Ninguém se preocupa em viver bem, mas sim em durar muito'
+toc: true
 ---
 
-# Carta 22 - LIVRO III
+## Carta 22 - LIVRO III
 
 Já percebeste que deves subtrair-te a essas tuas **ocupações ilusórias e nocivas**, mas ignoras ainda o modo de o conseguir. Ora há coisas que **só estando presente te posso indicar!** O médico também não pode determinar por carta a hora adequada para a alimentação ou para o banho: tem de tomar o pulso ao doente. 
 
-Diz um antigo provérbio que o gladiador **só forma o seu plano na arena** a partir da observação do rosto do adversário, do modo como move os braços, da própria postura do corpo. Observações sobre **os costumes**, sobre **os deveres**, é possível fazê-las de um modo geral e por escrito; são conselhos que se podem dar não só a ausentes, como **até à posteridade**<sub>(1)</sub>. 
+Diz um antigo provérbio que **o gladiador só forma o seu plano na arena** a partir da observação do rosto do adversário, do modo como move os braços, da própria postura do corpo. Observações sobre **os costumes**, sobre **os deveres**, é possível fazê-las de um modo geral e por escrito; são conselhos que se podem dar não só a ausentes, como **até à posteridade**<sub>(1)</sub>. 
 
 Mas a maneira e a **ocasião de tomar uma decisão concreta**, isso ninguém pode aconselhá-lo à distância, é forçoso **deliberar em face das próprias circunstâncias**. Para captar a oportunidade no momento justo é preciso não só **estar presente**, como **estar atento**. 
 
@@ -39,9 +45,14 @@ Possivelmente esperarias que te dissessem: "É uma vergonha ceder ao peso das re
 
 Sim, estas serão as palavras dos estóicos **enquanto valer a pena** mantermo-nos firmes no nosso posto, enquanto não formos constrangidos a fazer ou a suportar **nada que seja indigno de um homem de bem**.Se não for este o caso, o estóico **não se arruinará num esforço indigno e ultrajante**, não se manterá ativo apenas para se manter ativo! Não fará **sequer aquilo que esperarias vê-lo fazer**, ou seja, aguentar permanentemente o embate das grandes manobras políticas. 
 
-Quando o estóico se der conta de que está envolvido numa situação **opressiva, dúbia, ambígua deve recuar**; não voltar as costas, mas sim retirar-se gradualmente para lugar seguro. **Não é difícil**, caro Lucílio, fugir às ocupações quando se **não atribui qualquer valor aos benefícios** dessas ocupações. Quem se deixa enlear e reter por elas fá-lo em virtude deste raciocínio: "Ai de mim! Então hei-de renunciar a tão belas promessas? Hei-de retirar-me antes de fazer a colheita? Hei-de ver-me abandonado pelos meus clientes, sem escolta para a minha liteira, sem visitantes no meu vestíbulo?" 
+Quando o estóico se der conta de que está envolvido numa situação **opressiva, dúbia, ambígua deve recuar**; não voltar as costas, mas sim retirar-se gradualmente para lugar seguro.
 
-Aqui tens aquilo de que os homens se recusam a prescindir: **ainda que abominem as misérias da vida pública, adoram as suas recompensas!** Queixam-se da própria ambição como quem se queixa de uma amante: se analisarmos o que lhes vai na alma, o que encontramos não é ódio, mas apenas um passageiro ressentimento! Penetra no íntimo destes homens que **deploram a carreira por eles próprios escolhida**, que falam em **retirar-se de uma situação sem a qual não podem passar** e verificarás que, no fundo, eles se mantêm voluntariamente numa atividade que, ao ouvi-los, pareceria só les trazer amarguras e contrariedades! 
+**Não é difícil**, caro Lucílio, fugir às ocupações quando se **não atribui qualquer valor aos benefícios** dessas ocupações. Quem se deixa enlear e reter por elas fá-lo em virtude deste raciocínio: 
+> "Ai de mim! Então hei-de renunciar a tão belas promessas? Hei-de retirar-me antes de fazer a colheita? Hei-de ver-me abandonado pelos meus clientes, sem escolta para a minha liteira, sem visitantes no meu vestíbulo?" 
+
+Aqui tens aquilo de que os homens se recusam a prescindir: **ainda que abominem as misérias da vida pública, adoram as suas recompensas!** 
+
+Queixam-se da própria ambição como quem se queixa de uma amante: se analisarmos o que lhes vai na alma, o que encontramos não é ódio, mas apenas um passageiro ressentimento! Penetra no íntimo destes homens que **deploram a carreira por eles próprios escolhida**, que falam em **retirar-se de uma situação sem a qual não podem passar** e verificarás que, no fundo, eles se mantêm voluntariamente numa atividade que, ao ouvi-los, pareceria só les trazer amarguras e contrariedades! 
 
 Acredita-me, Lucílio: **poucos são os homens dominados pela servidão, mas muitos os que deliberadamente se submetem a ela**. Quanto a ti, se a tua intenção é libertar-te dos entraves, se estás sinceramente disposto a abraçar a liberdade, se adias o corte com a vida pública apenas para te precaveres contra qualquer preocupação futura, então poderás contar com o aplauso de todos os seguidores do estoicismo. 
 
@@ -65,10 +76,22 @@ Passar Bem!
 
 <sub>(1)</sub>
 Deste fato podem servir de exemplo as obras de Cícero "Sobre os Deveres" (De officiis) ou de Séneca "Sobre os Benefícios" (De beneficiis).
-
-:book: [Cartas a Lucílio](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+## Versão Papel :book:
 
 ISBN-13: 9789723105360 / ISBN-10: 9723105365  
 Ano: 2009 / Páginas: 713  
 Idioma: português de Portugal   
 **Editora:** Fundação Calouste Gulbenkian
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=BR&source=ac&ref=tf_til&ad_type=product_link&tracking_id=mundodekeika-20&marketplace=amazon&amp;region=BR&placement=9723105365&asins=9723105365&linkId=fb8dc16224bc0c2b7943ec769c5b5905&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+
+## No Skoob :eagle:
+
+:book: [Cartas a Lucílio - 4 edição](https://www.skoob.com.br/cartas-a-lucilio-37684ed41245.html)
+
+
+## Índice das Cartas
+
+Índice das 124 cartas publicadas : [📚 Cartas a Lucílio]({{< ref "/Cartas-a-Lucilio" >}})

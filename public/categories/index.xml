@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sun, 14 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>CORE SELF</title>
       <link>https://lucianakeiko.github.io/categories/core-self/</link>
-      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/core-self/</guid>
       <description></description>
@@ -24,9 +24,63 @@
     <item>
       <title>Super Amigos</title>
       <link>https://lucianakeiko.github.io/categories/super-amigos/</link>
-      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/super-amigos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEEKING</title>
+      <link>https://lucianakeiko.github.io/categories/seeking/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/seeking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latim</title>
+      <link>https://lucianakeiko.github.io/categories/latim/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/latim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estante</title>
+      <link>https://lucianakeiko.github.io/categories/estante/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/estante/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NOTEPAD</title>
+      <link>https://lucianakeiko.github.io/categories/notepad/</link>
+      <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/notepad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LOG</title>
+      <link>https://lucianakeiko.github.io/categories/log/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vulgata</title>
+      <link>https://lucianakeiko.github.io/categories/vulgata/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/categories/vulgata/</guid>
       <description></description>
     </item>
     
@@ -54,15 +108,6 @@
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/categories/gaveta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SEEKING</title>
-      <link>https://lucianakeiko.github.io/categories/seeking/</link>
-      <pubDate>Wed, 06 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/categories/seeking/</guid>
       <description></description>
     </item>
     
