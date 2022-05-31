@@ -1,0 +1,59 @@
+/* GERAL */
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+:root {
+    --laranjaAgendaCidade: hsl(24, 100%, 50%);
+    --azulAgendaCidade: hsl(196, 100%, 47%);
+    --texto: hsl(0, 0%, 20%);
+    --stalker: red;
+    --flutuantes: rgb(245, 234, 234);
+    --nav-height: 2rem;
+    font-size: 62,5%;
+}
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.2rem;
+    color: var(--cor-primaria);
+    text-align: left;
+}
+
+
+h1 {
+    color: var(--azulAgendaCidade);
+    font-size: 2.4rem;
+    margin-top: 2rem;
+} 
+p {
+    font-size: 1.1rem;
+    color: var(--texto);
+    margin: 2rem;
+}
+
+a {
+    margin: 2rem;
+}
+
+img {
+    width: 2rem;
+}
+
+.quadroApresentacao {
+    border: 2px solid var(--stalker);
+    display: flex;
+    flex-direction: column;
+
+}
+.apresenta {
+    border: 2px solid var(--stalker);
+    margin: 2rem;
+   
+    background: #f8f0f0;
+    border-radius: 8px;
+}
+.apresenta  h1 {
+    font-size: 1.25rem;
+    margin: 2rem;
+}
