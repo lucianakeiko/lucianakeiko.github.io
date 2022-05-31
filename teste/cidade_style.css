@@ -1,0 +1,85 @@
+/* GERAL */
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+:root {
+    --laranjaAgendaCidade: hsl(24, 100%, 50%);
+    --azulAgendaCidade: hsl(196, 100%, 47%);
+    --texto: hsl(0, 0%, 20%);
+    --stalker: red;
+    --flutuantes: rgb(245, 234, 234);
+    --nav-height: 2rem;
+    font-size: 62,5%;
+}
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.6rem;
+    color: var(--cor-primaria);
+    text-align: left;
+}
+
+
+/*  HEADER */
+
+header {
+    border: 2px solid var(--stalker);
+    margin-top: calc(4.1rem + var(--nav-height) ) 
+}
+
+header::before {
+    content: "";
+    width: 100vw;
+    height: calc(108rem + --nav-height);
+    background-color: var(--flutuantes);
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+h1 {
+    color: var(--azulAgendaCidade);
+    font-size: 3.4rem;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+h2 {
+    color: var(--azulAgendaCidade);
+    font-size: 2.4rem;
+}
+h3 {
+    color: var(--laranjaAgendaCidade);
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1.1rem;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--texto);
+    margin-bottom: 1rem;
+    border-color: var(--laranjaAgendaCidade);
+}
+
+img {
+    width: 2rem;
+}
+
+.metas {
+    border: 2px solid var(--stalker)
+}
+.participantes {
+    background-color: orange;
+    border: 2px solid var(--stalker)
+}
+
+.status {
+    background-color: yellow;
+    border: 2px solid var(--stalker)
+
+}
