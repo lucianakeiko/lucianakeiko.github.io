@@ -1,0 +1,243 @@
+---
+title: Tecnogia
+author: Keik@
+date: '2021-07-17'
+slug: []
+categories:
+  - Macro
+  - Setorial
+tags:
+  - Tecnologia
+description: ''
+---
+
+
+```{r setup, include=FALSE }
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, include=FALSE }
+library(quantmod)
+library(ichimoku)
+library(lubridate)
+library(FinAna)
+library(kableExtra)
+
+
+# com datas - só esse ano. 
+inicio <- as.Date("2010-01-01")
+fim <- today()
+
+```
+# Tecnologia 
+```{r,  warning = FALSE, message=FALSE, echo=FALSE}
+
+ticker <- c(
+"BMOB3",
+"CASH3",
+"CARD3",
+"LINX3",
+"LWSA3",
+"MOSI3",
+"NINJ3",
+"POSI3",
+"SQIA3",
+"TOTS3",
+"VLID3"
+)
+
+
+empresa <- c(
+"Bemobi Mobile Tech SA",
+"Meliuz SA",
+"CSU Cardsystem SA",
+"Linx S.A.",
+"LocaWeb Servicos de Internet SA",
+"Mosaico Tecnologia ao Consumidor SA",
+"Getninjas SA",
+"Positivo Tecnologia SA",
+"Sinqia SA",
+"Totvs SA",
+"Valid Solucoes SA"
+)
+
+setor <- cbind(ticker, empresa)
+
+setor |> kbl() |> kable_classic_2(full_width = F)
+
+inicio <- as.Date("2000-01-01")
+fim <- today()
+
+for (acao in setor) {
+  quantmod::getSymbols(paste0(ticker,".SA"), src="yahoo", from=inicio,to=fim)
+  
+}
+
+```
+
+
+# `r ticker[1]` - `r empresa[1]`
+
+:computer: **Site** : https://www.bemobi.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.bemobi.com.br/  
+
+```{r Bemobi, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(BMOB3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[1],
+						TA="addBBands();addVo()"
+						)
+```
+
+
+# `r ticker[2]` - `r empresa[2]`
+
+:computer: **Site** : https://www.meliuz.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.meliuz.com.br/  
+
+
+
+```{r Meliuz, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(CASH3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[2],
+						TA="addBBands();addVo()"
+						)
+```
+
+# `r ticker[3]` - `r empresa[3]`
+
+:computer: **Site** : https://www.csu.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.csu.com.br/  
+
+```{r CARD3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(CARD3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[3],
+						TA="addVo()"
+						)
+```
+
+# `r ticker[4]` - `r empresa[4]`
+
+:computer: **Site** : https://www.linx.com.br/  
+:bar_chart: **Relações com Investidores** : http://ri.linx.com.br/  
+
+```{r LINX3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(LINX3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[4],
+						TA="addVo()"
+						)
+```
+
+# `r ticker[5]` - `r empresa[5]`
+
+:computer: **Site** : https://www.locaweb.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.locaweb.com.br/   
+
+```{r LWSA3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(LWSA3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[5],
+						TA="addVo()"
+						)
+```
+
+
+# `r ticker[6]` - `r empresa[6]`
+
+:computer: **Site** : https://www.mosaico.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.mosaico.com.br/  
+
+
+```{r MOSI3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(MOSI3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[6],
+						TA="addVo()"
+						)
+```
+
+# `r ticker[7]` - `r empresa[7]`
+
+:computer: **Site** : https://www.getninjas.com.br/  
+:bar_chart: **Relações com Investidores** : http://ri.getninjas.com.br/   
+
+```{r NINJ3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(NINJ3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[7],
+						TA="addVo()"
+						)
+```
+
+# `r ticker[8]` - `r empresa[8]`
+
+:computer: **Site** : https://www.meupositivo.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.positivotecnologia.com.br/  
+
+```{r POSI3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(POSI3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[8],
+						TA="addVo()"
+						)
+```
+
+# `r ticker[9]` - `r empresa[9]`
+
+:computer: **Site** : https://www.sinqia.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.sinqia.com.br  
+
+```{r SQIA3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(SQIA3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[9],
+						TA="addVo()"
+						)
+```
+
+
+# `r ticker[10]` - `r empresa[10]`
+
+:computer: **Site** : https://www.totvs.com/  
+:bar_chart: **Relações com Investidores** : https://ri.totvs.com/  
+
+```{r TOTS3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(TOTS3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[10],
+						TA="addVo()"
+						)
+```
+
+# `r ticker[11]` - `r empresa[11]`
+
+:computer: **Site** : https://valid.com/pt-br/  
+:bar_chart: **Relações com Investidores** : https://ri.valid.com/  
+
+```{r VLID3, warning = FALSE, message=FALSE, echo=FALSE, out.width="130%"}
+BDchart <- na.omit(VLID3.SA)
+chartSeries(BDchart,
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						name = empresa[11],
+						TA="addVo()"
+						)
+```
+
+
+
+
+
+
