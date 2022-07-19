@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ReactJS on Homo Somnium</title>
+    <link>https://lucianakeiko.github.io/categories/reactjs/</link>
+    <description>Recent content in ReactJS on Homo Somnium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 1982–2021</copyright>
+    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lucianakeiko.github.io/categories/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ReactJS</title>
+      <link>https://lucianakeiko.github.io/post/2021-08-22-reactjs/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/post/2021-08-22-reactjs/</guid>
+      <description>&lt;h2 id=&#34;configurando-o-ambiente&#34;&gt;Configurando o ambiente&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;yarn init -y
+yarn add react
+yarn add react-dom
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;1-configurando-o-babel&#34;&gt;[1] Configurando o Babel&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @babel/core @babel/cli @babel/preset-env -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 babel.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;module.exports = {
+    presets: [
+        &#39;@babel/preset-env&#39;
+    ]
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ compilar na mão:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn babel src/index.js --out-file dist/bundle.js 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ o babel entender o react&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @babel/preset-react -D
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&#39;@babel/preset-react&#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;2-configurando-o-webpack&#34;&gt;[2] Configurando o Webpack&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;yarn add webpack webpack-cli webpack-dev-server -D
+yarn add babel-loader -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const path = require(&#39;path&#39;)
+module.exports = {
+    entry: path.resolve(__dirname, &#39;src&#39;, &#39;index.jsx&#39;),
+    output: {
+        path: path.resolve(__dirname, &#39;dist&#39;),
+        filename: &#39;bundle.js&#39;
+    },
+    resolve: {
+        extensions: [&#39;.js&#39;, &#39;.jsx&#39;],
+    },
+    module: {
+        rules: [
+            {
+                test: /\.jsx$/,
+                exclude: /node_modules/,
+                use: &#39;babel-loader&#39;,
+            }
+        ],
+    }
+};
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ rodar&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn webpack
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;3-estrutura-do-react&#34;&gt;[3] Estrutura do React&lt;/h3&gt;
+&lt;p&gt;no 💾 babel.config.js&lt;/p&gt;
+&lt;p&gt;p/ não precisar importar o react&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;
+[ &#39;@babel/preset-react&#39;, {
+           runtime: &#39;automatic&#39;
+       }],
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;4-servindo-html-estático&#34;&gt;[4] Servindo html estático&lt;/h3&gt;
+&lt;p&gt;p/ injetar o bundle automaticamente.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add html-webpack-plugin -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const HtmlWebpackPlugin = require(&#39;html-webpack-plugin&#39;)
+
+. . . 
+
+
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, &#39;public&#39;, &#39;index.html&#39;)
+        })
+    ],
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;5-webpack-devserver&#34;&gt;[5] Webpack DevServer&lt;/h3&gt;
+&lt;p&gt;-&amp;gt; Conf do Dev Server p/ ele criar o bundle automaticamente&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add webpack-dev-server -D
+
+yarn add webpack-dev-server@3.11.1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    devServer: {
+        contentBase: path.resolve(__dirname, &#39;public&#39;),
+    },
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;6-source-maps&#34;&gt;[6] Source maps&lt;/h3&gt;
+&lt;p&gt;Forma de conseguir visualizar o código original mesmo quando todo o código tá embaralhado.&lt;/p&gt;
+&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    devtool: isDevelopment ? &#39;eval-source-map&#39; : &#39;source-map&#39;,
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;7-ambiente-dev-e-produção&#34;&gt;[7] Ambiente dev e produção&lt;/h3&gt;
+&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const isDevelopment = process.env.NODE_ENV !== &#39;production&#39;;
+
+. . . 
+
+    mode: isDevelopment ? &#39;development&#39; : &#39;production&#39;,
+    
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&amp;ldquo;cross-env&amp;rdquo;: para definir variáveis ambiente independente do SO.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add cross-env -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;e os scripts p/ os 2 casos&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt; &amp;quot;scripts&amp;quot;: {
+    &amp;quot;dev&amp;quot;: &amp;quot;webpack serve&amp;quot;,
+    &amp;quot;build&amp;quot;: &amp;quot;cross-env NODE_ENV=production webpack&amp;quot;
+  },
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;8importando-arquivos-css--sass-loader&#34;&gt;[8]Importando arquivos CSS + SASS loader&lt;/h3&gt;
+&lt;p&gt;os modulos para a conversão&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add style-loader css-loader node-sass sass-loader -D
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;
+  {
+                test: /\.scss$/ ,
+                exclude: /node_modules/,
+                use: [&#39;style-loader&#39;,&#39;css-loader&#39;,&#39;sass-loader&#39;],
+            }
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;9-fast-refresh-no-webpack&#34;&gt;[9] Fast Refresh no Webpack&lt;/h3&gt;
+&lt;p&gt;: padrão: reseta estados.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @pmmmwh/react-refresh-webpack-plugin react-refresh -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 webpack.config.js
+(só faz sentido em desenvolvimento)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const ReactRefreshWebpackPlugin = require(&#39;@pmmmwh/react-refresh-webpack-plugin&#39;);
+
+
+...
+
+isDevelopment &amp;amp;&amp;amp; new ReactRefreshWebpackPlugin(),
+
+...
+# -&amp;gt; *ps :: para resolver o false no caso do &amp;quot;não desenvolvimento&amp;quot;
+
+
+   ].filter(Boolean),
+
+... 
+# -&amp;gt; no devServer
+  hot: true,
+
+... 
+no babel-loader:
+
+      use: {
+                   loader: &#39;babel-loader&#39;,
+                   options: {
+                       plugins: [
+                           isDevelopment &amp;amp;&amp;amp; require.resolve(&#39;react-refresh/babel&#39;)
+                       ].filter(Boolean
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;10-typescript&#34;&gt;[10] Typescript&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;yarn add typescript -D
+
+yarn tsc --init 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 tsconfig.json&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[15]  &amp;quot;lib&amp;quot;: [ &amp;quot; DOM&amp;quot; , &amp;quot;DOM.Iterable&amp;quot;, &amp;quot;ESNext&amp;quot;],          
+
+[40]  &amp;quot;allowJs&amp;quot;: true,       
+
+[70]  &amp;quot;allowSyntheticDefaultImports&amp;quot;: true,                          
+
+[29]   &amp;quot;moduleResolution&amp;quot;: &amp;quot;node&amp;quot;,  
+
+[36]   &amp;quot;resolveJsonModule&amp;quot;: true,  
+
+[69] &amp;quot;isolatedModules&amp;quot;: true,  
+
+[52] &amp;quot;noEmit&amp;quot;: true,
+
+[17] &amp;quot;jsx&amp;quot;:&amp;quot;react-jsx&amp;quot;,
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;REMOVER:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;target&amp;quot;: &amp;quot;es5&amp;quot;,
+&amp;quot;module&amp;quot;: &amp;quot;commonjs&amp;quot;,   
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-&amp;gt; ADD&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  &amp;quot;include&amp;quot;: [&amp;quot;src&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;p/ o BABEL entender o typescript&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @babel/preset-typescript -D
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;💾 babel.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&#39;@babel/preset-typescript&#39;,
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;no 💾 webpack.config.js&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;test: /\. (j|t)sx$/,
+
+...   
+extensions: [&#39;.js&#39;, &#39;.jsx&#39;, &#39;.ts&#39;, &#39;.tsx&#39;],
+
+...   
+ entry: path.resolve(__dirname, &#39;src&#39;, &#39;index.tsx&#39;),
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;os types iniciais:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yarn add @types/react-dom -D
+yarn add @types/react -D
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;lembrete&#34;&gt;Lembrete&lt;/h2&gt;
+&lt;p&gt;atalhos vscode::
+control + shift + L  :  seleciona todas as ocorrencias  [ + END &amp;ndash; vai pra linha toda ]&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
