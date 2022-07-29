@@ -1307,7 +1307,7 @@ Regimentos do Conselho de Administração, de seus comitês de assessoramento e 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;
 &lt;span style=&#34;color:#111&#34;&gt;total&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#111&#34;&gt;AMAR3.SA&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;AMAR3.SA.Volume&lt;/span&gt;
 &lt;span style=&#34;color:#75af00&#34;&gt;median&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;total&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;
-&lt;span style=&#34;color:#75715e&#34;&gt;## [1] 4861300&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;## [1] 5240050&lt;/span&gt;
 &lt;span style=&#34;color:#75af00&#34;&gt;max&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;total&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;
 &lt;span style=&#34;color:#75715e&#34;&gt;## [1] 28215300&lt;/span&gt;
 &lt;span style=&#34;color:#75af00&#34;&gt;min&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;total&lt;/span&gt;&lt;span style=&#34;color:#111&#34;&gt;)&lt;/span&gt;
