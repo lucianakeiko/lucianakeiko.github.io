@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 1982–2021</copyright>
-    <lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lucianakeiko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Marco Aurélio</title>
       <link>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</link>
-      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/marco-aur%C3%A9lio/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>Meditações</title>
       <link>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</link>
-      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/medita%C3%A7%C3%B5es/</guid>
       <description></description>
@@ -409,6 +409,15 @@
     </item>
     
     <item>
+      <title>Semiótica</title>
+      <link>https://lucianakeiko.github.io/tags/semi%C3%B3tica/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucianakeiko.github.io/tags/semi%C3%B3tica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Karl Friston</title>
       <link>https://lucianakeiko.github.io/tags/karl-friston/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
@@ -702,15 +711,6 @@
       <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lucianakeiko.github.io/tags/vida/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>semiótica</title>
-      <link>https://lucianakeiko.github.io/tags/semi%C3%B3tica/</link>
-      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucianakeiko.github.io/tags/semi%C3%B3tica/</guid>
       <description></description>
     </item>
     
