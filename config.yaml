@@ -1,0 +1,86 @@
+DefaultContentLanguage: pt-br
+author: keik@
+baseURL: https://lucianakeiko.github.io/
+copyright: Copyright © 1982–2021
+enableInlineShortcodes: yes
+footnoteReturnLinkContents: ^
+googleAnalytics: "UA-201033021-1"
+hasCJKLanguage: yes
+languageCode: en
+theme: hugo-theme-tokiwa
+title: Homo Somnium
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    style: monokailight
+
+# Enable global emoji support
+enableEmoji: true
+params:
+  bannerFont: fonts/exampleFont
+  description: "\r\nSummum Bonum in ipso iudicio es est habitu optimae mentis\r\n"
+  env: production
+  favicon: img/megazinho.png
+  fuse: yes
+  math: yes
+  postDateFormat: 2-1-2006
+  useChineseFonts: yes
+  instagram:
+    appId: "348183316788851"
+    clientToken: "3e319807150bbd0ca5a80b2bc3ffcbcc"
+menu:
+  main:
+    - identifier: Cartas
+      name: Cartas à Lucilius
+      url: /cartas-a-lucilio/
+      weight: 1
+    - identifier: Meditações
+      name: Meditações do Marcão
+      url: /meditacoes-marcao/
+      weight: 1
+      
+    - name: Tags
+      url: /tags/
+      weight: 2
+    - name: Categories
+      url: /categories/
+      weight: 2
+    - identifier: LKT notepad
+      name: LKT notepad
+      url: /loading/
+      weight: 3
+    - identifier: LKT Posts
+      name: LKT Posts
+      url: /post/
+      weight: 3
+    - identifier: QIK Posts
+      name: QIK Posts
+      url: /economode/
+      weight: 4
+    - identifier: QIK notepad
+      name: QIK notepad
+      url: /qika3/
+      weight: 4
+
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 5      
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+social:
+  github: http://github.com/lucianakeiko
+  instagram: http://instagram.com/pagaccao
+  mail: lucianakeiko@gmail.com
+  twitter: http://twitter.com/luciana_keiko
+  youtube: http://youtube.com/lucianakeiko
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  

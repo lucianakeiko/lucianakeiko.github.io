@@ -1,0 +1,128 @@
+---
+title: AMAR3
+author: Keik@
+date: '2021-07-17'
+slug: []
+categories: []
+tags: []
+description: ''
+---
+
+
+```{r setup, include=FALSE }
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, include=FALSE }
+library(quantmod)
+library(ichimoku)
+library(lubridate)
+library(FinAna)
+library(kableExtra)
+library(ggplot2)
+
+
+# com datas - só esse ano. 
+inicio <- as.Date("2020-01-01")
+fim <- today()
+
+
+quantmod::getSymbols("AMAR3.SA", 
+										 src="yahoo", 
+										 from=inicio,to=fim,
+										 auto.assign = TRUE) 
+
+
+AMAR3.SA <- na.omit(AMAR3.SA)
+
+```
+
+# AMAR3 - jan/20 até o momento
+```{r, warning = FALSE, message=FALSE, echo=FALSE,out.width="130%"}
+# chartSeries(to.weekly(AMAR3.SA), 
+#						theme=chartTheme('white',up.col='green',dn.col='red')
+#						)
+
+
+chartSeries(to.weekly(AMAR3.SA), 
+            show.grid   = TRUE,
+            name        = "Semanal",
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						TA="addSMA(n=7,col = 'blue');addVo()")
+
+
+```
+## VOLUME
+
+
+```{r}
+
+total <- AMAR3.SA$AMAR3.SA.Volume
+median(total)
+max(total)
+min(total)
+```
+
+
+
+
+
+## Por dentro dos Resultados 2021 
+
+Anderson Figo - Info Money - 26/Mar/2021
+:tv: https://youtu.be/mJnM2jzWzns
+
+
+:bust_in_silhouette: Marcelo Pimentel - CEO  
+:bust_in_silhouette: Adalberto Pereira Santos - CFO  
+
+## Acumulado de 2020 + 1T 
+
+
+## Receita Líquida & Vendas em mesmas lojas
+
+![AMAR3](/economode/2021-07-17-amar3/index.pt-br_files/AMAR3_info_01.png)
+
+:point_right: vendas totais do varejo com **queda de 7,2% aa** , com SSS<sub>(1)</sub> de **-5,6%** 
+:point_right: Meses de outubro e novembro com SSS positivos, porém dezembro afetado pela redução de fluxo em loja causada pela pandemia.  
+:point_right: Plataforma digital com crescimento de **63,9%** ( representando **9,2% das vendas** de varejo)
+
+## xxxxxxxxxxxxxxxxxxx
+
+![AMAR3 - Resultados 2021](/economode/2021-07-17-amar3/index.pt-br_files/AMAR3_info_02.png)
+
+:point_right: Margem em recuperação gradual, já refletindo os níveis ajustados de estoques ( Estrategicamente, decidiram diminuir os estoques: 30 milhões/Peças p/ 18 milhões - importante para gerar caixa )  
+
+:point_right: Em dezembro já encontrava mais proximo do pré pandemia -  em níveis de 50%  
+## Despesas administrativas, de vendas e gerais
+
+:point_right: Novas renegociações estruturais de contratos  
+:point_right: Automação maciça de processo via RPA (automação de processos robóticos)  
+:point_right: Home office definitivo para Head Quarter   
+:point_right: 90% de despesas fixas
+
+![AMAR3 SG&A](/economode/2021-07-17-amar3/index.pt-br_files/AMAR3_info_03.png)
+
+## EBITDA Consolidado
+
+:point_right:
+
+![AMAR3 EBITDA](/economode/2021-07-17-amar3/index.pt-br_files/AMAR3_info_04.png)
+
+<sub>(1)</sub> **SSS** :=  **S**ame **s**tore **s**ales   
+**Tradução** := Vendas em mesmas lojas. 
+**O que é** :=  Indicador do setor de comércio  
+**O que mostra** := ganho de produtividade da empresa == quanto as vendas aumentaram nas mesmas lojas em relação ao período anterior.  
+**Sacadinha** := se a empresa dobra a sua receita, mas para isso precisou aumentar o número de lojas, o que ela aumentou foram os seus investimentos(/gastos -- c/ loja, funcionário, etc) e não sua **produtividade**.  
+
+<sub>(2)</sub> **SG&A** := **S**elling, **G**eneral & **A**dministrative Expense  
+**Tradução** := Despesas administrativas, de vendas e gerais
+**O que é** := termo que permite olhar separadamente entre os recuros empregados no negócio e em atividades acessórias.
+**O que mostra** := a boa gestão de desempenho orçamentário (ou não) 
+**Sacadinha** := Um nível alto de **SG&A** impacta negativamente o resultado da empresa. Porém, com uma gestão eficiente, pode proporcionar o contrário, com o benefício de não interferir nas atividades principais.
+
+<sub>(3)</sub> **EBITDA** := **E**arnings **B**efore **I**nterest, **T**axes, **D**epreciation, and **A**mortization  
+**Tradução** := “Lucros antes de juros, impostos, depreciação e amortização”  
+**O que é** := Cálculo padrão para avaliar empresas listadas no mercado de bolsa de valores ( Ebitda = Resultado Líquido + Juros + Impostos + Depreciação + Amortização )  
+**O que mostra** := Apenas o **resultado operacional** da companhia acrescido da depreciação e da amortização.   
+**Sacadinha** :=  Ebitda foi patronizado em 2002 pela CVM (e é obrigatório), porém, o Ebitda Ajustado pode ser qualquer coisa ( com justificativa, claro. )  

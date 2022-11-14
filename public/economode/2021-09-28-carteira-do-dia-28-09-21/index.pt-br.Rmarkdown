@@ -1,0 +1,75 @@
+---
+title: Carteira do Dia - 28/09/21
+author: Keik@
+date: '2021-09-28'
+slug: []
+categories:
+  - Economia
+tags: []
+description: 'Carteira do Dia - 28/09/21'
+toc: true
+---
+
+```{r, echo=FALSE}
+library(kableExtra)
+library(dplyr)
+library(readr)
+
+qikapi_classificaccaoSetorial <- read_csv("../../../dados/qikapi_classificaccaoSetorial.csv")
+
+nEmpresas <- qikapi_classificaccaoSetorial |> 
+	summarise(n = n())
+ 
+empresas <- qikapi_classificaccaoSetorial |> 
+	group_by(`SETOR ECONÔMICO`) |> 
+	summarise(empresas = n()) |> 
+	arrange(desc(empresas))
+
+empresas |> kbl() |> kable_classic_2(full_width = F)
+
+```
+
+
+### Carteira do Dia - 28/09/21
+
+## 5 mais representativas
+
+- VALE3 - 	VALE 12,057 (Materiais Básicos > Mineração > Minerais Metálicos)
+- ITUB4	ITAUUNIBANCO 6,286 ( Financeiro> Intermediários Financeiros > Bancos )
+- PETR4	PETROBRAS 5,61 (Petróleo, Gás e Biocombustíveis	> Petróleo, Gás e Biocombustíveis > Exploração, Refino e Distribuição)
+- BBDC4	BRADESCO 4,432  ( Financeiro> Intermediários Financeiros > Bancos )
+- PETR3	PETROBRAS 4,341
+
+
+## 5 mais baratas 
+- CIEL3	CIELO R$ 2,41
+- COGN3	COGNA ON R$ 2,94
+- IRBR3	IRBBRASIL RE R$ 4,92
+- LAME4	LOJAS AMERIC R$ 5,08
+- JHSF3	JHSF PART  R$ 6,27
+
+## 5 mais caras
+
+- VALE3	VALE R$ 78,80
+- GNDI3	INTERMEDICA R$ 78,20
+- RDOR3	REDE D OR R$ 67,77
+- BIDI11	BANCO INTER R$ 58,71
+- BRKM5	BRASKEM R$ 57,47
+
+## 5 mais volume
+
+
+- PETR4	PETROBRAS 74.561.843
+- CASH3	MELIUZ 49.925.280
+- B3SA3	B3 43.937.203
+- BBDC4	BRADESCO 41.265.086
+- COGN3	COGNA ON 39.783.253
+
+## 5 MENOS volume
+
+- EGIE3	ENGIE BRASIL 1.515.860
+- ENGI11	ENERGISA 1.674.063
+- FLRY3	FLEURY 1.704.803
+- IGTA3	IGUATEMI 1.851.840
+- EZTC3	EZTEC  2.141.383
+

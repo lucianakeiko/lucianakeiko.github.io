@@ -1,0 +1,92 @@
+---
+title: Valuation Test
+author: Keik@
+date: '2021-07-16'
+slug: []
+categories:
+  - Loading
+tags: []
+description: ''
+---
+
+```{r setup, include=FALSE }
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, include=FALSE }
+library(quantmod)
+library(ichimoku)
+library(lubridate)
+library(FinAna)
+library(kableExtra)
+
+
+```
+
+```{r,  warning = FALSE, message=FALSE, echo=FALSE}
+
+accoes <- c(
+"AMAR3",
+"CEAB3",
+"GRND3"
+)
+
+nomes <- c(
+"Marisa Lojas SA",
+"C&A Modas SA",
+"Grendene SA"
+)
+
+ativos <- cbind(accoes, nomes)
+
+ativos |> kbl() |> kable_classic_2(full_width = F)
+
+inicio <- as.Date("2000-01-01")
+fim <- today()
+
+for (acao in accoes) {
+  quantmod::getSymbols(paste0(acao,".SA"), src="yahoo", from=inicio,to=fim)
+  
+}
+
+
+```
+
+# `r accoes[1]` - `r nomes[1]`
+
+:computer: **Site** : https://www.marisa.com.br/  
+:bar_chart: **Relações com Investidores** : https://ri.marisa.com.br/  
+
+```{r AMAR3, warning = FALSE, message=FALSE, echo=FALSE,out.width="130%"}
+
+chartSeries(AMAR3.SA, 
+						type        = "candlesticks",
+            main        = "",
+            show.grid   = TRUE,
+            name        = nomes[1],
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						TA="addSMA(n=200,col = 'blue')")
+
+```
+
+
+```{r AMAR3-branco, warning = FALSE, message=FALSE, echo=FALSE,out.width="140%"}
+chartSeries(AMAR3.SA, multi.col = TRUE, theme= "white", TA="addEMA(50, col='yellow');addMACD()",subset = "2021-1::2021-3")
+```
+
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?""But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?""But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?""But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+```{r AMAR3-2, warning = FALSE, message=FALSE, echo=FALSE, out.width="150%"}
+
+
+chartSeries(AMAR3.SA, 
+						type        = "candlesticks",
+            main        = "",
+            show.grid   = FALSE,
+            name        = nomes[1],
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						TA="addBBands();addVo()",
+						subset = "2021-1::2021-3")
+```
+
+

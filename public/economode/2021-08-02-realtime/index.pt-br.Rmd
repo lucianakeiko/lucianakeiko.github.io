@@ -1,0 +1,13 @@
+---
+title: RealTime
+author: Keik@
+date: '2021-08-02'
+slug: []
+categories:
+  - Economia
+tags: []
+description: ''
+---
+
+
+<iframe width="1000" height="450" src="https://datastudio.google.com/embed/reporting/4c5bc19b-1b33-42bb-866b-feda5febdae7/page/QtzWC" frameborder="0" style="border:0" allowfullscreen></iframe>

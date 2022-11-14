@@ -1,0 +1,54 @@
+---
+title: TAEE
+author: ''
+date: '2022-08-18'
+slug: []
+categories: []
+tags: []
+description: ''
+---
+```{r setup, include=FALSE }
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+```{r, include=FALSE }
+library(quantmod)
+library(ichimoku)
+library(lubridate)
+library(FinAna)
+library(kableExtra)
+library(ggplot2)
+
+
+# com datas - só esse ano. 
+inicio <- as.Date("2020-01-01")
+fim <- today()
+
+
+quantmod::getSymbols("TAEE11.SA", 
+										 src="yahoo", 
+										 from=inicio,to=fim,
+										 auto.assign = TRUE) 
+
+
+TAEE11.SA <- na.omit(TAEE11.SA)
+
+```
+
+# TAEE11.SA - jan/20 até o momento
+```{r, warning = FALSE, message=FALSE, echo=FALSE,out.width="130%"}
+# chartSeries(to.weekly(AMAR3.SA), 
+#						theme=chartTheme('white',up.col='green',dn.col='red')
+#						)
+
+
+chartSeries(to.weekly(TAEE11.SA), 
+            show.grid   = TRUE,
+            name        = "Semanal",
+						theme=chartTheme('white',up.col='green',dn.col='red'),
+						TA="addSMA(n=7,col = 'blue');addVo()")
+
+
+```
+
+
