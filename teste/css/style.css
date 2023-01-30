@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    /* background-color: red; */
+    font-family: 'Lato', sans-serif;
+    padding: 1.3rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper>* {
+    padding: 10px;
+    flex: 2 100%;
+}
+
+header {
+    padding: 20px 0;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    width: 9rem;
+}
+
+nav {
+    text-align: right;
+    width: 100%;
+
+
+
+}
+
+nav a {
+    color: rgb(107, 104, 104);
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 15px;
+
+
+}
+
+.meio {
+    background-color: #C7D2FE;
+    display: flex;
+    align-content: space-around;
+    height: 33vw;
+
+
+
+
+}
+
+/* ploc */
+.ds {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.textao {
+
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.textao h1 {
+
+    color: #FF6600;
+    font-size: 2.3rem;
+}
+
+
+.textao h2 {
+
+    color: #04AFEF;
+    font-size: 1.7rem;
+}
+
+.textao strong {
+
+    color: #DA9F42;
+    font-size: 1.7rem;
+
+
+
+
+}
+
+.textao p {
+
+    width: 900px;
+
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    letter-spacing: 0.005em;
+    
+
+
+
+
+}
